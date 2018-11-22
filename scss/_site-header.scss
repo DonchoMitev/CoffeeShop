@@ -3,21 +3,33 @@ body {
 }
 
 .container-img {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url("../images/header.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url("../images/header.png");
   background-size: cover;
 
   .center {
     width: 100%;
     text-align: center;
-    margin: 2rem;
-    padding: 6rem 0;
+    padding: 12rem 0;
     color: white;
+    text-shadow: 2px 2px #000;
+  }
+
+  .center-sm {
+    width: 100%;
+    text-align: center;
+    padding:5rem 0;
+    color: white;
+    text-shadow: 2px 2px #000;
   }
 }
 
 .container-img nav {
   display : flex;
   justify-content: space-around;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  background: gray;
 
   ul{
     display: flex;

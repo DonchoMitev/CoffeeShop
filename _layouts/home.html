@@ -5,14 +5,23 @@
 
 
 <body>
-
-    {% include header.html %}
+    {% if page.title %}
+        {% include small_header.html %}
+    {% else %}
+        {% include header.html %}
+    {% endif %}
 
     <main>
         {% if page.title %}
             {{content}}
         {% else %}
             <h1>Hello World I am the mannnnaa!!!!!!!!</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam asperiores aspernatur at autem corporis dicta error eum illo illum impedit minima, neque nobis, optio quibusdam similique sit ut vitae voluptate!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam asperiores aspernatur at autem corporis dicta error eum illo illum impedit minima, neque nobis, optio quibusdam similique sit ut vitae voluptate!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam asperiores aspernatur at autem corporis dicta error eum illo illum impedit minima, neque nobis, optio quibusdam similique sit ut vitae voluptate!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam asperiores aspernatur at autem corporis dicta error eum illo illum impedit minima, neque nobis, optio quibusdam similique sit ut vitae voluptate!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam asperiores aspernatur at autem corporis dicta error eum illo illum impedit minima, neque nobis, optio quibusdam similique sit ut vitae voluptate!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam asperiores aspernatur at autem corporis dicta error eum illo illum impedit minima, neque nobis, optio quibusdam similique sit ut vitae voluptate!</p>
         {% endif %}
 
 
