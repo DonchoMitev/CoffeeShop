@@ -2,6 +2,6 @@
 _site
 .sass-cache
 .jekyll-metadata
-node-modules
+node_modules
 Gemfile.lock
 package-lock.json
