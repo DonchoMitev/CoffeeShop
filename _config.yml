@@ -3,7 +3,7 @@ email: doncho.mitev@mail.bg
 description: >- # this means to ignore newlines until "baseurl:"
   This is very beautiful theme for Jekyll
 baseurl: "/TravelAgency"
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol 4 your site, e.g. http://example.com
 
 
 github_username:  DonchoMitev

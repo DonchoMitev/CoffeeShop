@@ -32,6 +32,7 @@ gulp.task('serve', function() {
 
     browserSync.init({
         server: {
+            //changed base dir(old _sites)
             baseDir: "./docs/"
         }
     });
