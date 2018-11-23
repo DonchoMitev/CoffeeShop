@@ -21,7 +21,7 @@ body {
     text-align: center;
     padding: 12rem 0;
     color: white;
-    text-shadow: 0px 3px 30px rgba(86, 93, 160, 1);
+    text-shadow:$text-shadow;
   }
 
   .center-sm {
@@ -29,7 +29,7 @@ body {
     text-align: center;
     padding:0 0 0 0;
     color: white;
-    text-shadow: 2px 2px #000;
+    text-shadow: $text-shadow;
     h1{
       padding-top: 7rem;
       padding-bottom: 2rem;
@@ -59,7 +59,8 @@ body {
     font-family: 'Courgette', cursive;
 
     span {
-      color: cornflowerblue;
+      color: $primary-color;
+      text-shadow: $text-shadow;
     }
   }
 
@@ -85,12 +86,19 @@ body {
     }
 
     & a:hover {
-      color: cornflowerblue;
+      color: $primary-color;
+      @include easeOut();
     }
   }
 
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(white, 0.3);
+}
 
 
 

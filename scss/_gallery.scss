@@ -1,0 +1,32 @@
+.gallery {
+
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 4rem;
+
+
+  div.card {
+    margin-bottom: 5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: $box-shadow;
+    flex:0 0 20rem;
+
+    &:hover {
+      border: 1px solid #777;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+}
+

@@ -17,7 +17,7 @@
         <p>tel: 0899 29 45 66</p>
     </div>
     <div class="container-img">
-        <nav>
+        <nav class="header" id="myHeader">
             <p class="site-title">
                 <a href=""><span>Travel</span>Agency</a>
             </p>
@@ -25,7 +25,7 @@
             <ul>
                 <li><a href="">Home</a></li>
                 <li><a href="/about/">About</a></li>
-                <li><a href="/about/">Gallery</a></li>
+                <li><a href="/gallery/">Gallery</a></li>
                 <li><a href="/about/">Our Trip</a></li>
             </ul>
         </nav>
@@ -65,6 +65,19 @@
 
 </footer>
 
+    <script>
+        window.onscroll = function() {myFunction()};
 
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
 </body>
 </html>
