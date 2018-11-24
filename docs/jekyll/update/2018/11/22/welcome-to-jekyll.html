@@ -9,21 +9,22 @@
 </head>
 
 
-
 <body>
-    
-        <header>
+
+    <header>
     <div class="container-img">
         <nav>
             <p class="site-title">
-                <a href=""><span>Travel</span>Agency</a>
+                <a href=""><span>Travel</span> Agency</a>
             </p>
 
             <ul>
                 <li><a href="">Home</a></li>
-                <li><a href="/about/">About</a></li>
-                <li><a href="/about/">Gallery</a></li>
-                <li><a href="/about/">Our Trip</a></li>
+                <li><a href="/about/">About Us</a></li>
+                <li><a href="/products/">Our Products</a></li>
+                <li><a href="/events/">Events</a></li>
+                <li><a href="/info/">Info</a></li>
+                <li><a href="/contacts/">Contacts</a></li>
             </ul>
         </nav>
 
@@ -34,11 +35,10 @@
         </div>
     </div>
 </header>
-    
 
-    <main>
-        
-            <p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<main>
+    <p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
 
 <p>To add new posts, simply add a file in the <code class="highlighter-rouge">_posts</code> directory that follows the convention <code class="highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
 
@@ -53,30 +53,64 @@
 <p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
 
 
-        
+</main>
 
+<footer>
+    <div class="flex-footer">
+        <div class="first-column">
+            <div class="name-contacts">
+                <p class="site-title">
+                    <a href=""><span>Coffee</span> Shop</a>
+                </p>
+                <div class="icons">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-google-plus-g"></i>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aspernatur aut consectetur debitis
+                delectus, ducimus est excepturi hic inventore iste molestias nemo officia perferendis porro quasi quidem
+                quisquam sequi ullam?</p>
+        </div>
+        <div class="second-column">
+            <h3>QUICK LINKS</h3>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="/about/">About</a></li>
+                <li><a href="/gallery/">Gallery</a></li>
+                <li><a href="/about/">Our Trip</a></li>
+            </ul>
+        </div>
 
-    </main>
+        <div class="third-column">
+            <h3>CONTACT INFO</h3>
+            <p>Sofia, Opalchenska 244</p>
+            <p>Phone: +359 889 44 44 44</p>
+            <p>contacts@coffeeshop.com</p>
+        </div>
+    </div>
 
-    <footer>
-
-    <h1>Footer</h1>
+    <div class="final">
+        <p>© 2018 Coffee Shop . All rights reserved | Design by Doncho Mitev.</p>
+    </div>
 
 </footer>
 
-    <script>
-        window.onscroll = function() {myFunction()};
+<script>
+    window.onscroll = function () {
+        myFunction()
+    };
 
-        var header = document.getElementById("myHeader");
-        var sticky = header.offsetTop;
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
 
-        function myFunction() {
-            if (window.pageYOffset > sticky) {
-                header.classList.add("sticky");
-            } else {
-                header.classList.remove("sticky");
-            }
+    function myFunction() {
+        if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+        } else {
+            header.classList.remove("sticky");
         }
-    </script>
+    }
+</script>
 </body>
 </html>

@@ -1,14 +1,17 @@
+@import '../fontawesome/css/all.css';
+
 @import "variables";
 @import "mixins";
 
-@import "typography";
-
-
 @import "reset";
+
+@import "typography";
 
 @import "layout";
 
+@import "button";
 @import "navigation";
 @import "site-header";
 @import "gallery";
+@import "footer";
  

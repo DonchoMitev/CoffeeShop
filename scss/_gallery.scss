@@ -1,27 +1,33 @@
-.gallery {
+.gallery, .services {
 
   display: flex;
   justify-content: space-around;
-  align-items: flex-start;
+  align-items: center;
   flex-wrap: wrap;
   padding: 4rem;
 
 
   div.card {
+    text-align: center;
     margin-bottom: 5rem;
-    border: 1px solid #ccc;
+    //border: 1px solid #ccc;
     border-radius: 5px;
-    box-shadow: $box-shadow;
+    //box-shadow: $box-shadow;
     flex:0 0 20rem;
+    transition: all .3s ease-in-out;
 
     &:hover {
-      border: 1px solid #777;
+      //border: 1px solid #777;
+      transform: scale(1.1);
+      //box-shadow: $box-shadow-hover;
     }
 
     img {
-      width: 100%;
+      width: 30%;
       height: auto;
+
     }
+
   }
 
   div.desc {
@@ -29,4 +35,42 @@
     text-align: center;
   }
 }
+
+.product {
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  margin: 3rem;
+  perspective: 500px;
+
+  img {
+    width: 250px;
+    height: 250px;
+    border: 2px solid $primary-color;
+    border-radius: 5px;
+  }
+
+  .details {
+    width: 70%;
+    height: 80%;
+    padding: 0.5rem 0.8rem;
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotateY(90deg);
+    transform-origin: 50%;
+    background: rgba(255,255,255,0.9);
+    opacity: 0;
+    transition: all 0.4s ease-in;
+
+  }
+
+  &:hover .details {
+    transform: translate(-50%, -50%) rotateY(0deg);
+    opacity: 1;
+  }
+}
+
+
 

@@ -5,28 +5,37 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width"/>
     <title>TravelAgency</title>
-    <link rel="stylesheet" href="/TravelAgency/css/styles.css" type="text/css"/>
+    <link rel="stylesheet" href="/css/styles.css" type="text/css"/>
 </head>
 
 
-
 <body>
-    
-        <header>
+
+    <header>
     <div class="info-bar">
-        <p>tel: 0899 29 45 66</p>
+        <div class="icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-google-plus-g"></i>
+        </div>
+        <div class="contacts">
+            <p><i class="fas fa-phone"></i>  +359 899 29 45 66</p>
+            <p><i class="fas fa-envelope"></i> contact@coffeeshop.com</p>
+        </div>
     </div>
     <div class="container-img">
         <nav class="header" id="myHeader">
             <p class="site-title">
-                <a href="/TravelAgency"><span>Travel</span>Agency</a>
+                <a href=""><span>Coffee</span> Shop</a>
             </p>
 
             <ul>
-                <li><a href="/TravelAgency">Home</a></li>
-                <li><a href="/TravelAgency/about/">About</a></li>
-                <li><a href="/TravelAgency/gallery/">Gallery</a></li>
-                <li><a href="/TravelAgency/about/">Our Trip</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="/about/">About Us</a></li>
+                <li><a href="/products/">Our Products</a></li>
+                <li><a href="/events/">Events</a></li>
+                <li><a href="/info/">Info</a></li>
+                <li><a href="/contacts/">Contacts</a></li>
             </ul>
         </nav>
 
@@ -38,46 +47,93 @@
                 Enjoy the beauty of the world!
             </p>
             <button>
-                more info
+                best offers
             </button>
         </div>
     </div>
 </header>
-    
-
-    <main>
-        
-            <h1>Hello World I am the mannnnaa!!!!!!!!</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam asperiores aspernatur at autem corporis dicta error eum illo illum impedit minima, neque nobis, optio quibusdam similique sit ut vitae voluptate!</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam asperiores aspernatur at autem corporis dicta error eum illo illum impedit minima, neque nobis, optio quibusdam similique sit ut vitae voluptate!</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam asperiores aspernatur at autem corporis dicta error eum illo illum impedit minima, neque nobis, optio quibusdam similique sit ut vitae voluptate!</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam asperiores aspernatur at autem corporis dicta error eum illo illum impedit minima, neque nobis, optio quibusdam similique sit ut vitae voluptate!</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam asperiores aspernatur at autem corporis dicta error eum illo illum impedit minima, neque nobis, optio quibusdam similique sit ut vitae voluptate!</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam asperiores aspernatur at autem corporis dicta error eum illo illum impedit minima, neque nobis, optio quibusdam similique sit ut vitae voluptate!</p>
-        
 
 
-    </main>
+<main>
+    <style type="text/css" media="screen">
+  .container {
+    margin: 10px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  h1 {
+    margin: 30px 0;
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+</style>
 
-    <footer>
+<div class="container">
+  <h1>404</h1>
 
-    <h1>Footer</h1>
+  <p><strong>Page not found :(</strong></p>
+  <p>The requested page could not be found.</p>
+</div>
+
+</main>
+
+<footer>
+    <div class="flex-footer">
+        <div class="first-column">
+            <div class="name-contacts">
+                <p class="site-title">
+                    <a href=""><span>Coffee</span> Shop</a>
+                </p>
+                <div class="icons">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-google-plus-g"></i>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aspernatur aut consectetur debitis
+                delectus, ducimus est excepturi hic inventore iste molestias nemo officia perferendis porro quasi quidem
+                quisquam sequi ullam?</p>
+        </div>
+        <div class="second-column">
+            <h3>QUICK LINKS</h3>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="/about/">About</a></li>
+                <li><a href="/gallery/">Gallery</a></li>
+                <li><a href="/about/">Our Trip</a></li>
+            </ul>
+        </div>
+
+        <div class="third-column">
+            <h3>CONTACT INFO</h3>
+            <p>Sofia, Opalchenska 244</p>
+            <p>Phone: +359 889 44 44 44</p>
+            <p>contacts@coffeeshop.com</p>
+        </div>
+    </div>
+
+    <div class="final">
+        <p>© 2018 Coffee Shop . All rights reserved | Design by Doncho Mitev.</p>
+    </div>
 
 </footer>
 
-    <script>
-        window.onscroll = function() {myFunction()};
+<script>
+    window.onscroll = function () {
+        myFunction()
+    };
 
-        var header = document.getElementById("myHeader");
-        var sticky = header.offsetTop;
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
 
-        function myFunction() {
-            if (window.pageYOffset > sticky) {
-                header.classList.add("sticky");
-            } else {
-                header.classList.remove("sticky");
-            }
+    function myFunction() {
+        if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+        } else {
+            header.classList.remove("sticky");
         }
-    </script>
+    }
+</script>
 </body>
 </html>
