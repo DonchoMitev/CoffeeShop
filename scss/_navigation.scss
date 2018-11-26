@@ -1,10 +1,5 @@
-.container-img nav {
-	display : flex;
-	justify-content: space-around;
-	align-items: center;
-	padding: 0.8rem;
-	width: 100%;
-	background-color: rgba(white, 0.7);
+nav.main {
+	align-self: center;
 
 	.site-title {
 		padding: 0;
@@ -23,94 +18,127 @@
 		}
 	}
 
-
-
-	ul{
-		display: flex;
-		padding: 0;
+	ul {
+		padding: 0.5rem;
+		border-radius: 0.3rem;
+		margin: 0;
 
 		li {
-			list-style-type: none;
-			padding:0 1rem;
+			display: block;
+			list-style: none outside;
+			position: relative;
+			padding: 0 0.5rem 0 0;
 
+			&:hover > a {
+				background: $primary-color;
+				color: white;
+				@include easeOut;
+			}
+
+			a {
+				display: block;
+				padding: 0.5rem 1rem;
+				border: $primary-color;
+				border-radius: 0.4rem;
+				text-decoration: none;
+				background: burlywood;
+				color: #000;
+
+				&:hover {
+					background: $primary-color;
+					color: white;
+					@include easeOut;
+				}
+			}
 		}
 
-		li a {
-			text-decoration: none;
-			text-transform: uppercase;
-			color: black;
-			font-size: 1.2rem;
-			font-family: 'Courgette', cursive;
+		ul {
+			display: none;
+			position: absolute;
+			top: 100%;
+			left: -0.5rem;
+			width: 10rem;
 
-		}
-
-		& a:hover {
-			color: $primary-color;
-			@include easeOut();
+			li {
+				padding-bottom: 0.5rem;
+			}
 		}
 	}
-
 }
 
-#nav-icon {
+
+#main-nav-toggle,
+#toggle {
 	display: none;
 	cursor: pointer;
 }
 
-.sticky {
-	position: fixed;
-	z-index: 999;
-	top: 0;
-	width: 100%;
-	background-color: rgba(white, 0.3);
+#toggle {
+	position: relative;
+	flex: 1 0 100%;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	padding: 1rem 0;
 }
 
-@media screen and (max-width: 780px) {
-	.container-img nav ul {
+#toggle:before {
+	display: block;
+	content: '';
+	position: relative;
+	padding-right: 0.3rem;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+
+	#toggle {
+		display: flex;
+		margin: 0 auto;
+	}
+
+	nav.main > ul {
 		display: none;
+		border-top: 2px solid $primary-color;
 
 	}
 
-	#nav-icon {
-		display: block;
-
-		span {
-			display: block;
-			width: 33px;
-			height: 4px;
-			margin-bottom: 5px;
-			position: relative;
-
-			background: #000;
-			border-radius: 3px;
-
-			z-index: 1;
-
-			transform-origin: 4px 0;
-
-			transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
-			background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
-			opacity 0.55s ease;
-
-			&:first-child {
-				transform-origin: 0% 0%;
-			}
-
-			&n:nth-last-child(2) {
-				transform-origin: 0% 100%;
-			}
-
-		}
-
+	nav.main ul li:not(:first-child) {
+		padding-top: 0.5rem;
 	}
 
-	#main-nav-toggle:checked #menu {
+	#main-nav-toggle:checked + nav.main ul{
 		display: block;
 		flex: 1 0 100%;
+
+		& li > ul {
+			display: none;
+		}
+
+		& li:hover > ul {
+			display: block;
+			width: 100%;
+			position: relative;
+		}
+
+		& ul li {
+			padding-left: 2rem;
+		}
 	}
 
+	#main-nav-toggle:checked + #toggle:before {
+		content: 'X';
+	}
 
 }
 
+@media screen and (min-width: 800px) {
 
+	nav.main ul {
+		display: flex;
+	}
 
+	nav.main ul li:hover > ul {
+		display: block;
+	}
+}

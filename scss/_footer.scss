@@ -79,3 +79,17 @@ footer {
     border-top: 2px solid;
   }
 }
+
+@media screen and (max-width: 780px) {
+  footer .flex-footer {
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    padding: 4rem;
+
+    & div {
+      flex: 1 0 100%;
+    }
+  }
+
+}

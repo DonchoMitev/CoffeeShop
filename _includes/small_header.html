@@ -1,14 +1,25 @@
 <header>
     <div class="container-img">
-        <nav>
+        <nav class="main" id="myHeader">
             <p class="site-title">
-                <a href="{{site.baseurl}}"><span>Travel</span> Agency</a>
+                <a href="{{site.baseurl}}"><span>Coffee</span> Shop</a>
             </p>
 
             <ul>
-                <li><a href="{{site.baseurl}}">Home</a></li>
+                <li><a href="{{site.baseurl}}/">Home</a></li>
                 <li><a href="{{ site.baseurl }}/about/">About Us</a></li>
-                <li><a href="{{ site.baseurl }}/products/">Our Products</a></li>
+                <li>
+                    <a href="{{ site.baseurl }}/products/">Products</a>
+                    <ul>
+                        <li>
+                            <a href="{{ site.baseurl }}/drinks/">Drinks</a>
+                        </li>
+                        <li><a href="{{ site.baseurl }}beans/">Coffee beans</a></li>
+                        <li>
+                            <a href="{{ site.baseurl }}/machines/">Coffee machines</a>
+                        </li>
+                    </ul>
+                </li>
                 <li><a href="{{ site.baseurl }}/events/">Events</a></li>
                 <li><a href="{{ site.baseurl }}/info/">Info</a></li>
                 <li><a href="{{ site.baseurl }}/contacts/">Contacts</a></li>

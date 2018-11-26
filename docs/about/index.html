@@ -5,7 +5,7 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width"/>
     <title>Coffee Shop | About</title>
-    <link rel="stylesheet" href="/css/styles.css" type="text/css"/>
+    <link rel="stylesheet" href="/CoffeeShop/css/styles.css" type="text/css"/>
 </head>
 
 
@@ -13,18 +13,29 @@
 
     <header>
     <div class="container-img">
-        <nav>
+        <nav class="main" id="myHeader">
             <p class="site-title">
-                <a href=""><span>Travel</span> Agency</a>
+                <a href="/CoffeeShop"><span>Coffee</span> Shop</a>
             </p>
 
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="/about/">About Us</a></li>
-                <li><a href="/products/">Our Products</a></li>
-                <li><a href="/events/">Events</a></li>
-                <li><a href="/info/">Info</a></li>
-                <li><a href="/contacts/">Contacts</a></li>
+                <li><a href="/CoffeeShop/">Home</a></li>
+                <li><a href="/CoffeeShop/about/">About Us</a></li>
+                <li>
+                    <a href="/CoffeeShop/products/">Products</a>
+                    <ul>
+                        <li>
+                            <a href="/CoffeeShop/drinks/">Drinks</a>
+                        </li>
+                        <li><a href="/CoffeeShopbeans/">Coffee beans</a></li>
+                        <li>
+                            <a href="/CoffeeShop/machines/">Coffee machines</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="/CoffeeShop/events/">Events</a></li>
+                <li><a href="/CoffeeShop/info/">Info</a></li>
+                <li><a href="/CoffeeShop/contacts/">Contacts</a></li>
             </ul>
         </nav>
 
@@ -48,7 +59,7 @@
 </div>
 <article class="about-us">
     <div class="img">
-        <img src="/images/harvatska.jpg" alt="">
+        <img src="../images/about-us.jpg" alt="about-us">
     </div>
     <div class="text-for-us">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem ipsum, itaque molestiae quasi quo tenetur veritatis vero! Alias architecto exercitationem id ipsam, natus nostrum odit pariatur quo, rem repellat, saepe.</p>
@@ -66,9 +77,9 @@
     <div class="flex-footer">
         <div class="first-column">
             <div class="name-contacts">
-                <p class="site-title">
-                    <a href=""><span>Coffee</span> Shop</a>
-                </p>
+                <div class="site-title">
+                    <a href="/CoffeeShop"><span>Coffee</span> Shop</a>
+                </div>
                 <div class="icons">
                     <i class="fab fa-facebook-f"></i>
                     <i class="fab fa-twitter"></i>
@@ -82,10 +93,10 @@
         <div class="second-column">
             <h3>QUICK LINKS</h3>
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="/about/">About</a></li>
-                <li><a href="/gallery/">Gallery</a></li>
-                <li><a href="/about/">Our Trip</a></li>
+                <li><a href="/CoffeeShop">Home</a></li>
+                <li><a href="/CoffeeShop/about/">About</a></li>
+                <li><a href="/CoffeeShop/gallery/">Gallery</a></li>
+                <li><a href="/CoffeeShop/about/">Our Trip</a></li>
             </ul>
         </div>
 

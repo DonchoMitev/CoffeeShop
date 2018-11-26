@@ -7,15 +7,20 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
   background: burlywood;
-  color: white;
+  color: #000;
   border-bottom: 1px solid $primary-color;
-  text-shadow: $text-shadow;
-  font-size: 14px;
-  padding: 0.5rem 8rem;
+  font-size: 0.8rem;
+  padding: 0.1rem 8rem;
 
   .icons i {
-    font-size: 1rem;
+    font-size: 0.8rem;
     padding: 0.5rem;
+
+    &:hover {
+      cursor: pointer;
+      color: $primary-color;
+      @include easeOut;
+    }
   }
 
  p{
@@ -35,13 +40,13 @@ body {
 }
 
 .container-img {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("../images/header.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("../images/header-contact.jpg");
   background-size: cover;
 
   .center {
     width: 100%;
     text-align: center;
-    padding: 12rem 0;
+    padding: 10rem 0;
     color: white;
     text-shadow:$text-shadow;
   }

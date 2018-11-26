@@ -1,4 +1,3 @@
-<input type="checkbox" name="main-nav-toggle" id="main-nav-toggle" value="" />
 <header>
     <div class="info-bar">
         <div class="icons">
@@ -12,19 +11,27 @@
         </div>
     </div>
     <div class="container-img">
-        <nav class="header-menu" id="myHeader">
+        <input type="checkbox" name="main-nav-toggle" id="main-nav-toggle" value="" />
+        <nav class="main" id="myHeader">
             <p class="site-title">
                 <a href="{{site.baseurl}}/"><span>Coffee</span> Shop</a>
             </p>
-            <label id="nav-icon" for="main-nav-toggle" class="fas nav-toggle">
-                <span class="menu-icon"></span>
-                <span class="menu-icon"></span>
-                <span class="menu-icon"></span>
-            </label>
-            <ul id="menu">
+            <label for="main-nav-toggle" id="toggle">Menu</label>
+            <ul>
                 <li><a href="{{site.baseurl}}/">Home</a></li>
                 <li><a href="{{ site.baseurl }}/about/">About Us</a></li>
-                <li><a href="{{ site.baseurl }}/products/">Our Products</a></li>
+                <li>
+                    <a href="{{ site.baseurl }}/products/">Products</a>
+                    <ul>
+                        <li>
+                            <a href="{{ site.baseurl }}/drinks/">Drinks</a>
+                        </li>
+                        <li><a href="{{ site.baseurl }}beans/">Coffee beans</a></li>
+                        <li>
+                            <a href="{{ site.baseurl }}/machines/">Coffee machines</a>
+                        </li>
+                    </ul>
+                </li>
                 <li><a href="{{ site.baseurl }}/events/">Events</a></li>
                 <li><a href="{{ site.baseurl }}/info/">Info</a></li>
                 <li><a href="{{ site.baseurl }}/contacts/">Contacts</a></li>

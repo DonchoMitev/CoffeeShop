@@ -13,15 +13,26 @@
 
     <header>
     <div class="container-img">
-        <nav>
+        <nav class="main" id="myHeader">
             <p class="site-title">
-                <a href=""><span>Travel</span> Agency</a>
+                <a href=""><span>Coffee</span> Shop</a>
             </p>
 
             <ul>
-                <li><a href="">Home</a></li>
+                <li><a href="/">Home</a></li>
                 <li><a href="/about/">About Us</a></li>
-                <li><a href="/products/">Our Products</a></li>
+                <li>
+                    <a href="/products/">Products</a>
+                    <ul>
+                        <li>
+                            <a href="/drinks/">Drinks</a>
+                        </li>
+                        <li><a href="beans/">Coffee beans</a></li>
+                        <li>
+                            <a href="/machines/">Coffee machines</a>
+                        </li>
+                    </ul>
+                </li>
                 <li><a href="/events/">Events</a></li>
                 <li><a href="/info/">Info</a></li>
                 <li><a href="/contacts/">Contacts</a></li>
@@ -59,9 +70,9 @@
     <div class="flex-footer">
         <div class="first-column">
             <div class="name-contacts">
-                <p class="site-title">
+                <div class="site-title">
                     <a href=""><span>Coffee</span> Shop</a>
-                </p>
+                </div>
                 <div class="icons">
                     <i class="fab fa-facebook-f"></i>
                     <i class="fab fa-twitter"></i>

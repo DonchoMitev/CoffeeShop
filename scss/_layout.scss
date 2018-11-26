@@ -2,6 +2,24 @@ body {
   background: rgba(218, 178, 130, 0.39);
 }
 
+body > header nav {
+  &.main{
+    background-color: rgba(white, 0.4);
+    border-bottom: 2px solid $primary-color;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0.5rem 1rem;
+  }
+
+  &.sticky {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    width: 100%;
+    background-color: rgba(white, 0.8);
+  }
+}
 
 
 .section-title {
@@ -72,10 +90,13 @@ body {
   padding: 2rem;
 
   &.img {
-    flex-basis: 40%;
+    flex-basis: 30%;
+    padding-right: 0;
+
     img {
-      width: 100%;
+      width: 80%;
       height: 80%;
+      border-radius: 8px;
 
     }
   }
@@ -83,6 +104,13 @@ body {
   &.text-for-us {
     flex-basis: 60%;
   }
+}
+
+.address {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  font-size: 1.5rem;
 }
 
 .newsletter {
