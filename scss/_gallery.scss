@@ -31,12 +31,21 @@
   }
 
   div.desc {
-    padding: 15px;
+    padding: 3rem;
     text-align: center;
   }
 }
 
-.services-gallery {
+.info div.card{
+  border: $primary-color 2px solid;
+  flex-basis: 35%;
+  margin: 2rem;
+  &:hover {
+    transform: none;
+    border: $primary-color 2px solid;
+  }
+}
+.services-gallery{
   div.card {
     border: none;
     border-radius: 5px;

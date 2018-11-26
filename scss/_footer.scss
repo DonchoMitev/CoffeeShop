@@ -14,7 +14,6 @@ footer {
 
     h3 {
       color: white;
-      //text-shadow: $text-shadow;
     }
     .first-column {
       flex-basis: 40%;
@@ -81,15 +80,84 @@ footer {
 }
 
 @media screen and (max-width: 780px) {
-  footer .flex-footer {
-    flex-direction: column;
-    width: 70%;
+  .info {
+    padding: 0;
+    display: block;
+    width: 80%;
     margin: auto;
-    padding: 4rem;
+  }
 
-    & div {
-      flex: 1 0 100%;
+  .info-bar {
+    padding: 0.2rem 0;
+    .contacts {
+      align-items: center;
+      width: 100%;
+    }
+
+    .icons {
+      display: none;
     }
   }
 
+  .section-title {
+    .flex-coffee-under {
+      width: 30%;
+    }
+  }
+
+  footer .flex-footer {
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    padding: 4rem;
+
+    div {
+      margin-bottom: 2rem;
+    }
+
+    .site-title {
+      width: 100%;
+      display: block;
+    }
+
+    .icons {
+      display: block;
+      width: 100%;
+      margin: auto;
+    }
+
+    .third-column p {
+      width: 100%;
+    }
+
+  }
+
+}
+
+@media screen and (max-width: 520px) {
+
+  .newsletter {
+    input {
+      display: block;
+      margin-bottom: 0.5rem;
+      width: 100%;
+    }
+
+    button {
+      width: 100%;
+      margin: auto;
+    }
+  }
+
+  .section-title {
+    .flex-coffee-under {
+      width: 40%;
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  footer .none-display {
+    display: none;
+  }
 }

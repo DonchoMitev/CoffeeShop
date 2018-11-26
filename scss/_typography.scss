@@ -1,20 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette');
 html {
 	font-family: 'Courgette', cursive;
-	//font: var(--font-size-initial, 12px)/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 
 @media screen and (min-width: 500px) {
-	html { font-size: var(--font-size-lv2, 14px); }
+	html { font-size: 14px; }
 }
 
 @media screen and (min-width: 700px) {
-	html { font-size: var(--font-size-lv3, 16px); }
+	html { font-size: 16px; }
 }
 
 @media screen and (min-width: 1600px) {
-	html { font-size: var(--font-size-lv4, 18px); }
+	html { font-size: 18px; }
 }
 
 body, table, th, td, form, input, textarea, option, select {
@@ -26,11 +25,12 @@ h1, h2, h3, h4, h5, h6 {
 	padding-bottom: 0.5em;
 }
 
-$headings: (h1: 2.441em, h2: 1.953em, h3: 1.563em, h5: 1em, h6: 1em);
-
-@each $heading, $size in $headings {
-	#{$heading} { font-size: $size; }
-}
+h1 { font-size: 2.441em; }
+h2 { font-size: 1.953em; }
+h3 { font-size: 1em; }
+h4 { font-size: 1.25em; }
+h5 { font-size: 1em; }
+h6 { font-size: 1em; font-weight: bold; }
 
 h5, h6 { font-weight: bold; }
 
