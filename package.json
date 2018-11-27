@@ -1,5 +1,5 @@
 {
-  "name": "TravelAgency",
+  "name": "CoffeeShop",
   "version": "0.1.0",
   "description": "",
   "main": "index.html",
@@ -22,7 +22,7 @@
     "gulp-sourcemaps": ""
   },
   "scripts": "",
-  "repository": "https://github.com/DonchoMitev/TravelAgency",
+  "repository": "https://github.com/DonchoMitev/CoffeeShop",
   "author": "DonchoMitev",
   "license": "MTM",
   "bugs": "",

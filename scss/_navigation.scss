@@ -1,5 +1,4 @@
-nav.main {
-	align-self: center;
+.site-header .navigation-bar {
 
 	.site-title {
 		padding: 0;
@@ -10,62 +9,62 @@ nav.main {
 		color: black;
 		font-size: 2rem;
 		text-space: 2px;
-		font-family: 'Courgette', cursive;
 
 		span {
 			color: $primary-color;
 			text-shadow: $text-shadow;
 		}
 	}
+	nav.main {
+		ul {
+			padding: 0.5rem;
+			border-radius: 0.3rem;
+			margin: 0;
 
-	ul {
-		padding: 0.5rem;
-		border-radius: 0.3rem;
-		margin: 0;
-
-		li {
-			display: block;
-			list-style: none outside;
-			position: relative;
-			padding: 0 0.5rem 0 0;
-
-			&:hover > a {
-				background: $primary-color;
-				color: white;
-				@include easeOut;
-			}
-
-			a {
+			li {
 				display: block;
-				padding: 0.5rem 1rem;
-				border: $primary-color;
-				border-radius: 0.4rem;
-				text-decoration: none;
-				background: burlywood;
-				color: #000;
+				list-style: none outside;
+				position: relative;
+				padding: 0 0.5rem 0 0;
 
-				&:hover {
+				&:hover > a {
 					background: $primary-color;
 					color: white;
 					@include easeOut;
 				}
+
+				a {
+					display: block;
+					padding: 0.5rem 1rem;
+					border: $primary-color;
+					border-radius: 0.4rem;
+					text-decoration: none;
+					background: burlywood;
+					color: #000;
+
+					&:hover {
+						background: $primary-color;
+						color: white;
+						@include easeOut;
+					}
+				}
 			}
-		}
 
-		ul {
-			display: none;
-			position: absolute;
-			top: 100%;
-			left: -0.5rem;
-			width: 10rem;
+			ul {
+				display: none;
+				position: absolute;
+				top: 100%;
+				left: -0.5rem;
+				width: 10rem;
 
-			li {
-				padding-bottom: 0.5rem;
+				li:not(:last-child) {
+					padding-bottom: 0.5rem;
+				}
 			}
 		}
 	}
-}
 
+}
 
 #main-nav-toggle,
 #toggle {
@@ -80,13 +79,11 @@ nav.main {
 	align-content: center;
 	justify-content: center;
 	padding: 1rem 0;
-	font-size: 1.5rem;
 }
 
 #toggle:before {
 	display: block;
 	content: '\2630';
-	position: relative;
 	padding-right: 0.3rem;
 	font-weight: bold;
 	font-size: 2rem;
@@ -100,17 +97,16 @@ nav.main {
 
 	}
 
-	nav.main > ul {
+	.site-header .navigation-bar nav.main {
 		display: none;
-		border-top: 2px solid $primary-color;
+
+		& ul li:not(:first-child) {
+			padding-top: 0.5rem;
+		}
 
 	}
 
-	nav.main ul li:not(:first-child) {
-		padding-top: 0.5rem;
-	}
-
-	#main-nav-toggle:checked + nav.main ul{
+	#main-nav-toggle:checked + .site-header .navigation-bar nav.main{
 		display: block;
 		flex: 1 0 100%;
 
@@ -129,7 +125,7 @@ nav.main {
 		}
 	}
 
-	#main-nav-toggle:checked + nav.main #toggle:before {
+	#main-nav-toggle:checked + .site-header .navigation-bar #toggle:before {
 		content: '\d7';
 	}
 
@@ -137,11 +133,11 @@ nav.main {
 
 @media screen and (min-width: 800px) {
 
-	nav.main ul {
+	.site-header .navigation-bar nav.main ul{
 		display: flex;
 	}
 
-	nav.main ul li:hover > ul {
+	.site-header .navigation-bar nav.main ul li:hover > ul {
 		display: block;
 	}
 }

@@ -2,8 +2,9 @@ body {
   background: rgba(218, 178, 130, 0.39);
 }
 
-body > header nav {
-  &.main{
+body > header {
+
+  .navigation-bar {
     background-color: rgba(white, 0.4);
     border-bottom: 2px solid $primary-color;
     display: flex;
@@ -11,8 +12,7 @@ body > header nav {
     flex-wrap: wrap;
     padding: 0.5rem 1rem;
   }
-
-  &.sticky {
+  .sticky {
     position: fixed;
     z-index: 999;
     top: 0;
@@ -21,12 +21,9 @@ body > header nav {
   }
 }
 
-
 .section-title {
   margin: 10rem 0 3rem 0;
   text-align: center;
-
-
 
   .page-title {
     color: $primary-color;
@@ -38,7 +35,7 @@ body > header nav {
 
   .flex-coffee-under {
     width: 15%;
-    margin:auto;
+    margin: auto;
     display: flex;
 
     .hr-line {
@@ -60,11 +57,12 @@ body > header nav {
 
   .flex-coffee-under {
     width: 80%;
-    margin:auto;
+    margin: auto;
     display: flex;
 
   }
 }
+
 .coffee-main {
   .info-coffee {
     text-align: center;
@@ -80,7 +78,6 @@ body > header nav {
 
 }
 
-
 .products {
   display: flex;
   justify-content: space-around;
@@ -92,10 +89,10 @@ body > header nav {
   text-align: center;
 
   img {
-      margin: auto;
-      width: 60%;
-      height: 50%;
-      border-radius: 10px;
+    margin: auto;
+    width: 60%;
+    height: 50%;
+    border-radius: 10px;
   }
 
 }
@@ -117,7 +114,7 @@ body > header nav {
   text-align: center;
   padding: 2.5rem;
 
-  p{
+  p {
     font-size: 2rem;
     padding: 0.5rem;
   }

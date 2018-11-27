@@ -1,26 +1,18 @@
 <!DOCTYPE html>
-<html>
-
-{% include head.html %}
-
-<body>
-{% if page.title %}
-    {% include small_header.html %}
-{% else %}
+<html lang="en">
+    {% include head.html %}
+<body class="{% if page.type %}{{page.type}} {% endif %}{% if page.title %}{{ page.title | slugify }}{% else %}home{% endif %}">
     {% include header.html %}
-{% endif %}
-
 <main>
     {{content}}
 </main>
-
-{% include footer.html %}
+    {% include footer.html %}
 <script>
     window.onscroll = function () {
         myFunction()
     };
 
-    var header = document.getElementById("myHeader");
+    var header = document.getElementById("navigation-bar");
     var sticky = header.offsetTop;
 
     function myFunction() {
