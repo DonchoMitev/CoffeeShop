@@ -22,7 +22,6 @@ body > header {
 }
 
 .section-title {
-  margin: 10rem 0 3rem 0;
   text-align: center;
 
   h2 {
@@ -78,9 +77,17 @@ body > header {
   flex-wrap: wrap;
 }
 
-.about-us div {
-  padding: 2rem;
-  text-align: center;
+.about-us {
+
+  display: grid;
+  grid-template-columns:1fr 10em 10em 1fr;
+  grid-template-rows:5em 10em 5em;
+  grid-gap:.5em;
+
+  margin: 1em auto;
+  border: 1px dashed #777;
+  width:31em;
+
 
   img {
     margin: auto;
@@ -106,11 +113,47 @@ body > header {
 .newsletter {
   background: $secondary-color;
   text-align: center;
-  padding: 1rem;
+  padding: 1.5rem;
+  margin: 0;
   border-top: $main-border;
   border-bottom: $main-border;
   box-shadow: $box-shadow;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns:2fr 1fr 1fr 1fr;
+  grid-template-rows:6em 10em 10em;
+  /*********************************/
+  grid-template-areas:"h  h  h  h"
+  "l  .  c  r"
+  "l  f  f  f";
+  /* . left empty */
+  /*********************************/
+  grid-gap:.5em;
+
+  margin: 1em auto;
+  width:58em;
+}
+
+/*********************************/
+.h{grid-area: h;}
+.l{grid-area: l;}
+.c{grid-area: c;}
+.r{grid-area: r;}
+.f{grid-area: f;}
+/*********************************/
+
+
+.item {
+  border: 1px solid #000;
+  border-radius:10px;
+  background-color:#3E989B;
+  background-color:var(--color);
+  display:grid;
+}
+
+
 
 
 

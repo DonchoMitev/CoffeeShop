@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-11-28T11:57:48+02:00</updated><id>/feed.xml</id><title type="html">CoffeeShop</title><subtitle>This is very beautiful theme for Jekyll</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="/jekyll/update/2018/11/22/welcome-to-jekyll-Copy-(2)-Copy.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2018-11-22T15:03:46+02:00</published><updated>2018-11-22T15:03:46+02:00</updated><id>/jekyll/update/2018/11/22/welcome-to-jekyll%20-%20Copy%20(2)%20-%20Copy</id><content type="html" xml:base="/jekyll/update/2018/11/22/welcome-to-jekyll-Copy-(2)-Copy.html">&lt;article class=&quot;card&quot; id=&quot;four&quot;&gt;
-    &lt;img src=&quot;../images/post-2.jpg&quot;/&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-11-28T15:52:37+02:00</updated><id>/feed.xml</id><title type="html">CoffeeShop</title><subtitle>This is very beautiful theme for Jekyll</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="/jekyll/update/2018/11/22/welcome-to-jekyll-Copy-(2)-Copy.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2018-11-22T15:03:46+02:00</published><updated>2018-11-22T15:03:46+02:00</updated><id>/jekyll/update/2018/11/22/welcome-to-jekyll%20-%20Copy%20(2)%20-%20Copy</id><content type="html" xml:base="/jekyll/update/2018/11/22/welcome-to-jekyll-Copy-(2)-Copy.html">&lt;article class=&quot;card&quot; id=&quot;four&quot;&gt;
+    &lt;img src=&quot;../images/post-2.jpg&quot; class=&quot;blog-img&quot;/&gt;
     &lt;p class=&quot;article&quot;&gt;
         Good news for heavy coffee drinkers
     &lt;/p&gt;
-    &lt;input type=&quot;checkbox&quot; class=&quot;read-more-state&quot; id=&quot;post-4&quot;/&gt;
+    &lt;input type=&quot;checkbox&quot; class=&quot;read-more-state&quot; id=&quot;post-4&quot; /&gt;
     &lt;p class=&quot;read-more-wrap&quot;&gt;The scientists found that, as predicted, coffee drinkers had a lower risk of&lt;span
             class=&quot;read-more-target&quot;&gt; death over the course of the follow-up. They also found that this reduction in risk extended to people who drank eight or more cups each day.
 
@@ -20,7 +20,7 @@ The new study is based on observational data, but because of the large number of
     &lt;label for=&quot;post-4&quot; class=&quot;main-button&quot;&gt;&lt;/label&gt;
 
 &lt;/article&gt;</content><author><name></name></author><summary type="html">Good news for heavy coffee drinkers The scientists found that, as predicted, coffee drinkers had a lower risk of death over the course of the follow-up. They also found that this reduction in risk extended to people who drank eight or more cups each day.</summary></entry><entry><title type="html">products</title><link href="/jekyll/update/2018/11/22/welcome-to-jekyll-Copy-(2).html" rel="alternate" type="text/html" title="products" /><published>2018-11-22T15:03:46+02:00</published><updated>2018-11-22T15:03:46+02:00</updated><id>/jekyll/update/2018/11/22/welcome-to-jekyll%20-%20Copy%20(2)</id><content type="html" xml:base="/jekyll/update/2018/11/22/welcome-to-jekyll-Copy-(2).html">&lt;article class=&quot;card&quot; id=&quot;three&quot;&gt;
-    &lt;img src=&quot;../images/post-1.jpg&quot;/&gt;
+    &lt;img src=&quot;../images/post-1.jpg&quot; class=&quot;blog-img&quot;/&gt;
     &lt;p class=&quot;article&quot;&gt;
         Coffee Is Good For You
     &lt;/p&gt;
@@ -38,7 +38,7 @@ The study, thought to be the largest of its kind, followed more than 500,000 peo
         &lt;/a&gt;
         &lt;div class=&quot;desc&quot;&gt;Delonghi-white&lt;/div&gt;
     &lt;/div&gt;</content><author><name></name></author><summary type="html">Delonghi-white</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="/jekyll/update/2018/11/22/welcome-to-jekyll-Copy-(3).html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2018-11-22T15:03:46+02:00</published><updated>2018-11-22T15:03:46+02:00</updated><id>/jekyll/update/2018/11/22/welcome-to-jekyll%20-%20Copy%20(3)</id><content type="html" xml:base="/jekyll/update/2018/11/22/welcome-to-jekyll-Copy-(3).html">&lt;div class=&quot;card&quot;&gt;
-        &lt;a target=&quot;_blank&quot; href=&quot;/images/1.jpg&quot;&gt;
+        &lt;a target=&quot;_blank&quot; href=&quot;/images/1.jpg class=&quot;blog-img&quot;&quot;&gt;
             &lt;img src=&quot;/images/1.jpg&quot; alt=&quot;Cinque Terre&quot; width=&quot;300&quot; height=&quot;200&quot;&gt;
         &lt;/a&gt;
         &lt;div class=&quot;desc&quot;&gt;Delonghi-white&lt;/div&gt;
@@ -58,7 +58,7 @@ The study, thought to be the largest of its kind, followed more than 500,000 peo
         &lt;/a&gt;
         &lt;div class=&quot;desc&quot;&gt;Delonghi-white&lt;/div&gt;
     &lt;/div&gt;</content><author><name></name></author><summary type="html">Delonghi-white</summary></entry><entry><title type="html">Hello</title><link href="/2018/11/22/welcome-to-jekyll-Copy.html" rel="alternate" type="text/html" title="Hello" /><published>2018-11-22T15:03:46+02:00</published><updated>2018-11-22T15:03:46+02:00</updated><id>/2018/11/22/welcome-to-jekyll%20-%20Copy</id><content type="html" xml:base="/2018/11/22/welcome-to-jekyll-Copy.html">&lt;article class=&quot;card&quot; id=&quot;two&quot;&gt;
-    &lt;img src=&quot;../images/post-2.jpg&quot;/&gt;
+    &lt;img src=&quot;../images/post-2.jpg&quot; class=&quot;blog-img&quot;/&gt;
     &lt;p class=&quot;article&quot;&gt;
         Good news for heavy coffee drinkers
     &lt;/p&gt;
@@ -79,7 +79,7 @@ The new study is based on observational data, but because of the large number of
     &lt;label for=&quot;post-2&quot; class=&quot;main-button&quot;&gt;&lt;/label&gt;
 
 &lt;/article&gt;</content><author><name></name></author><summary type="html">Good news for heavy coffee drinkers The scientists found that, as predicted, coffee drinkers had a lower risk of death over the course of the follow-up. They also found that this reduction in risk extended to people who drank eight or more cups each day.</summary></entry><entry><title type="html">coffee</title><link href="/jekyll/update/2018/11/22/welcome-to-jekyll.html" rel="alternate" type="text/html" title="coffee" /><published>2018-11-22T15:03:46+02:00</published><updated>2018-11-22T15:03:46+02:00</updated><id>/jekyll/update/2018/11/22/welcome-to-jekyll</id><content type="html" xml:base="/jekyll/update/2018/11/22/welcome-to-jekyll.html">&lt;article class=&quot;card&quot; id=&quot;one&quot;&gt;
-    &lt;img src=&quot;../images/post-1.jpg&quot;/&gt;
+    &lt;img src=&quot;../images/post-1.jpg&quot; class=&quot;blog-img&quot;/&gt;
     &lt;p class=&quot;article&quot;&gt;
         Coffee Is Good For You
     &lt;/p&gt;

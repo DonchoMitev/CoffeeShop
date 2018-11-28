@@ -90,8 +90,12 @@ form {
 
 }
 
-@media (max-width: 800px) {
-  form.contact-form input {
+@media (max-width: 500px) {
+  form {
+    padding: 0;
+  }
+
+  .contact-form input,textarea {
     padding: 0.8rem;
   }
 }

@@ -109,14 +109,8 @@ footer {
     flex-direction: column;
     width: 100%;
     margin: auto;
-    padding: 4rem;
-
-    div {
-      margin-bottom: 2rem;
-    }
 
     .site-title {
-      width: 100%;
       display: block;
     }
 
@@ -148,5 +142,10 @@ footer {
 @media screen and (max-width: 450px) {
   footer .none-display {
     display: none;
+  }
+
+  .product img {
+    width: 12rem;
+    height: 12rem;
   }
 }
