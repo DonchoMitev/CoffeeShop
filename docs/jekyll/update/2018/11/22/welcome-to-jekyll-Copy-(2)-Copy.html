@@ -1,4 +1,63 @@
-<article class="card" id="four">
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <title>Welcome to Jekyll!</title>
+    <link rel="stylesheet" href="/CoffeeShop/css/styles.css" type="text/css"/>
+</head>
+
+<body class="welcome-to-jekyll">
+    <input type="checkbox" name="main-nav-toggle" id="main-nav-toggle" />
+<header class="site-header">
+    <div class="info-bar">
+        <div class="icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-google-plus-g"></i>
+        </div>
+        <div class="contacts">
+            <p><i class="fas fa-phone"></i> +359 899 29 45 66</p>
+            <p><i class="fas fa-envelope"></i> contact@coffeeshop.com</p>
+        </div>
+    </div>
+    <section class="navigation-bar" id="navigation-bar">
+        <div class="site-title">
+            <a href="/CoffeeShop/"><span>Coffee</span> Shop</a>
+        </div>
+        <label for="main-nav-toggle" id="toggle"></label>
+        <nav class="main" id="main-navigation">
+            <ul>
+                <li><a href="/CoffeeShop/">Home</a></li>
+                <li><a href="/CoffeeShop/about/">About Us</a></li>
+                <li>
+                    <a href="#">Products</a>
+                    <ul>
+                        <li><a href="/CoffeeShop/beans/">Coffee beans</a></li>
+                        <li>
+                            <a href="/CoffeeShop/machines/">Coffee machines</a>
+                        </li>
+                    </ul>
+                </li>
+                <!--<li><a href="/CoffeeShop/events/">Events</a></li>-->
+                <li><a href="/CoffeeShop/blog/index.html">Blog</a></li>
+                <li><a href="/CoffeeShop/contacts/">Contacts</a></li>
+            </ul>
+        </nav>
+    </section>
+    <div class="header-slogan">
+        <h1>
+            All you need to feel better, is coffee
+        </h1>
+        <p>
+            Make yourself useful. Have a coffee break. </p>
+        <form action="/CoffeeShop/products/">
+            <input class="main-button" type="submit" value="Best Offers">
+        </form>
+    </div>
+</header>
+<main>
+    <article class="card" id="four">
     <img src="../images/post-2.jpg" class="blog-img"/>
     <p class="article">
         Good news for heavy coffee drinkers
@@ -20,3 +79,64 @@ The new study is based on observational data, but because of the large number of
     <label for="post-4" class="main-button"></label>
 
 </article>
+
+</main>
+    <footer>
+    <div class="flex-footer">
+        <div class="first-column">
+            <div class="name-contacts">
+                <div class="site-title">
+                    <a href="/CoffeeShop"><span>Coffee</span> Shop</a>
+                </div>
+                <div class="icons">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-google-plus-g"></i>
+                </div>
+            </div>
+            <p class="none-display">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aspernatur aut consectetur debitis
+                delectus, ducimus est excepturi hic inventore iste molestias nemo officia perferendis porro quasi quidem
+                quisquam sequi ullam?</p>
+        </div>
+        <div class="second-column">
+            <h3>QUICK LINKS</h3>
+            <ul>
+                <li><a href="/CoffeeShop">Home</a></li>
+                <li><a href="/CoffeeShop/about/">About</a></li>
+                <li><a href="/CoffeeShop/info/">Info</a></li>
+                <li><a href="/CoffeeShop/contact/">Contacts</a></li>
+            </ul>
+        </div>
+
+        <div class="third-column">
+            <h3>CONTACT INFO</h3>
+            <p>Sofia, Opalchenska 244</p>
+            <p>Phone: +359 889 44 44 44</p>
+            <p>contacts@coffeeshop.com</p>
+        </div>
+    </div>
+
+    <div class="final">
+        <p>© 2018 Coffee Shop . All rights reserved | Design by Doncho Mitev.</p>
+    </div>
+
+</footer>
+
+<script>
+    window.onscroll = function () {
+        myFunction()
+    };
+
+    var header = document.getElementById("navigation-bar");
+    var sticky = header.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+        } else {
+            header.classList.remove("sticky");
+        }
+    }
+</script>
+</body>
+</html>
