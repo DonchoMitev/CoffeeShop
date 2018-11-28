@@ -17,7 +17,7 @@ tag: product
     {% if page == paginator.page %}
     <span class="webjeda">{{ page }}</span>
     {% elsif page == 1 %}
-    <a href="{{ site.baseurl }}/all_products/index.html">{{ page }}</a>
+    <a href="{{ site.baseurl }}/blog/index.html">{{ page }}</a>
     {% else %}
     <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
     {% endif %}
@@ -31,13 +31,13 @@ tag: product
 </div>
 {% endif %}
 
-<div class="gallery">
+<section class="gallery">
     <!-- This loops through the paginated posts -->
     {% for post in paginator.posts %}
             {{ post.content }}
     {% endfor %}
 
-</div>
+</section>
 
 <!-- pagination -->
 {% if paginator.total_pages > 1 %}
@@ -52,7 +52,7 @@ tag: product
     {% if page == paginator.page %}
     <span class="webjeda">{{ page }}</span>
     {% elsif page == 1 %}
-    <a href="{{ site.baseurl }}/all_products/index.html">{{ page }}</a>
+    <a href="{{ site.baseurl }}/blog/index.html">{{ page }}</a>
     {% else %}
     <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
     {% endif %}
