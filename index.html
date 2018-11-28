@@ -5,7 +5,7 @@ permalink: /
 
 <section class="coffee-main">
     <header class="section-title">
-        <h2 class="page-title">Coffee like drinks</h2>
+        <h2>Coffee like drinks</h2>
         <div class="flex-coffee-under">
             <div class="hr-line"></div>
             <div class="icon"><i class="fas fa-coffee"></i></div>
@@ -22,14 +22,16 @@ permalink: /
             and special attention at every stage until it falls into the hands of the client. That's exactly the
             philosophy of Coffe Shop.
         </p>
-        <button><a href="{{ site.baseurl }}/about/">More for us</a></button>
+        <form action="{{ site.baseurl }}/about/">
+            <input class="main-button" type="submit" value="More for us">
+        </form>
     </article>
 
 </section>
 
-<section>
+<section class="top-products">
     <header class="section-title">
-        <h2 class="page-title">Top Products</h2>
+        <h2>Top Products</h2>
         <div class="flex-coffee-under">
             <div class="hr-line"></div>
             <div class="icon"><i class="fas fa-coffee"></i></div>
@@ -88,9 +90,9 @@ permalink: /
         </article>
     </section>
 </section>
-<section>
+<section class="our-services">
     <header class="section-title">
-        <h2 class="page-title">What We Offer</h2>
+        <h2>What We Offer</h2>
         <div class="flex-coffee-under">
             <div class="hr-line"></div>
             <div class="icon"><i class="fas fa-coffee"></i></div>
@@ -98,7 +100,7 @@ permalink: /
         </div>
     </header>
 
-    <section class="gallery services-gallery">
+    <section class="services">
         <article class="card">
             <img class="image" src="{{ site.baseurl }}/images/coffee-beans.png" alt="Cinque Terre" width="150"
                  height="150">
@@ -127,23 +129,8 @@ permalink: /
     <header>
         <h2>Sign-up to our newsletter</h2>
     </header>
-    <form>
+    <form class="newsletter-form">
         <input type="text" placeholder="Enter Your email address here...">
-        <button>Subscribe</button>
-    </form>
-</section>
-
-<section class="newsletter">
-    <header>
-        <h2>Sign-up to our newsletter</h2>
-    </header>
-    <form action="#" method="post">
-        <p class="field">
-					<span class="input">
-						<input type="text" name="email" />
-						<span class="actions"></span>
-					</span>
-            <input type="submit" class="button" value="Абонирай се" />
-        </p>
+        <input class="main-button" type="submit" value="Send">
     </form>
 </section>

@@ -1,12 +1,14 @@
 .site-header {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("../images/header-contact.jpg");
   background-size: cover;
+  border-bottom: $main-border;
+  box-shadow: $box-shadow;
 
   .info-bar {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    background: burlywood;
+    background: $secondary-color;
     color: #000;
     border-bottom: 1px solid $primary-color;
     font-size: 0.8rem;
@@ -47,15 +49,16 @@ body .header-slogan {
   width: 90%;
   margin:auto;
   text-align: center;
-  padding: 10rem 0;
+  padding: 10rem 0 2rem 0;
   color: white;
   text-shadow:$text-shadow;
+
 }
 
 body:not(.home) .header-slogan {
   padding:3rem 0;
 
-  p, button {
+  p, form {
     display: none;
   }
 }

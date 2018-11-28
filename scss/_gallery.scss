@@ -1,26 +1,16 @@
-.gallery{
-
+.blog-articles{
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   padding: 4rem;
 
-
-  div.card {
+  article.card {
     text-align: center;
     margin-bottom: 5rem;
-    border: 1px solid #ccc;
     border-radius: 5px;
-    //box-shadow: $box-shadow;
     flex:0 0 20rem;
     transition: all .3s ease-in-out;
-
-    &:hover {
-      border: 1px solid #777;
-      transform: scale(0.9);
-      //box-shadow: $box-shadow-hover;
-    }
 
     img {
       width: 100%;
@@ -45,8 +35,14 @@
     border: $primary-color 2px solid;
   }
 }
-.services-gallery{
-  div.card {
+.our-services .services{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 4rem;
+  article.card {
+    text-align: center;
     border: none;
     border-radius: 5px;
     box-shadow: none;

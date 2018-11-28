@@ -6,7 +6,7 @@ body > header {
 
   .navigation-bar {
     background-color: rgba(white, 0.4);
-    border-bottom: 2px solid $primary-color;
+    border-bottom: $main-border;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -25,9 +25,8 @@ body > header {
   margin: 10rem 0 3rem 0;
   text-align: center;
 
-  .page-title {
+  h2 {
     color: $primary-color;
-    //text-shadow: $text-shadow;
     font-size: 3rem;
     text-space: 2px;
     padding: 0 0 1rem 0;
@@ -41,7 +40,7 @@ body > header {
     .hr-line {
       width: 100%;
       position: relative;
-      margin: 15px;
+      margin: 0.8rem;
       border-bottom: 2px solid #000;
     }
     .icon {
@@ -53,13 +52,8 @@ body > header {
 }
 
 .page {
-  margin: 6rem 0 3rem 0;
-
   .flex-coffee-under {
     width: 80%;
-    margin: auto;
-    display: flex;
-
   }
 }
 
@@ -78,7 +72,7 @@ body > header {
 
 }
 
-.products {
+.top-products .products{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -110,22 +104,12 @@ body > header {
 }
 
 .newsletter {
-  background: burlywood;
+  background: $secondary-color;
   text-align: center;
-  padding: 2.5rem;
-
-  p {
-    font-size: 2rem;
-    padding: 0.5rem;
-  }
-
-  input {
-    width: 50%;
-    padding: 0.5rem;
-    border-radius: 10px;
-    outline: none;
-  }
-
+  padding: 1rem;
+  border-top: $main-border;
+  border-bottom: $main-border;
+  box-shadow: $box-shadow;
 }
 
 

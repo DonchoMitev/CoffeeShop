@@ -1,0 +1,97 @@
+form {
+  max-width: 70%;
+  text-align: center;
+  margin: 1rem auto;
+  padding: 2rem;
+
+  input, textarea {
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    box-shadow: 0 1px 1px rgba(black, 0.1);
+
+    &:focus {
+      border: $primary-color 1px solid;
+      box-shadow: 0 0 4px rgba($primary-color, 1);
+    }
+  }
+
+}
+
+.contact-form {
+  input, textarea {
+    padding: 1.2rem;
+    display: block;
+    width: 100%;
+    margin-top: 1em;
+    resize: none;
+  }
+
+  textarea {
+    height: 13rem;
+  }
+
+  .half {
+    float: left;
+    width: 48%;
+    margin-bottom: 1em;
+  }
+
+  .right { width: 50%; }
+
+  .left {
+    margin-right: 2%;
+  }
+}
+
+.newsletter-form {
+  margin: 0 auto;
+  input:first-of-type {
+    width: 50%;
+    padding: 1rem;
+  }
+  .main-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    margin-left: 0.5rem;
+  }
+}
+
+
+
+@media (max-width: 800px) {
+  form.contact-form {
+    padding: 0;
+
+    input,textarea {
+      margin: 0.5rem auto;
+    }
+    .half {
+      width: 100%;
+      float: none;
+      margin-bottom: 0;
+    }
+  }
+
+  form.newsletter-form {
+    max-width: 90%;
+    margin: 0 auto;
+    input:first-of-type {
+      display: block;
+      margin-bottom: 0.5rem;
+      width: 100%;
+    }
+
+    .main-button {
+      width: 100%;
+      margin: 0;
+    }
+  }
+
+}
+
+@media (max-width: 800px) {
+  form.contact-form input {
+    padding: 0.8rem;
+  }
+}

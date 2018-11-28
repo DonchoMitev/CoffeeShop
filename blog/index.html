@@ -6,7 +6,7 @@ tag: product
 
 <!-- pagination -->
 {% if paginator.total_pages > 1 %}
-<div class="pagination">
+<section class="pagination">
     {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
     {% else %}
@@ -15,7 +15,7 @@ tag: product
 
     {% for page in (1..paginator.total_pages) %}
     {% if page == paginator.page %}
-    <span class="webjeda">{{ page }}</span>
+    <span class="active">{{ page }}</span>
     {% elsif page == 1 %}
     <a href="{{ site.baseurl }}/blog/index.html">{{ page }}</a>
     {% else %}
@@ -28,10 +28,10 @@ tag: product
     {% else %}
     <span>Next &raquo;</span>
     {% endif %}
-</div>
+</section>
 {% endif %}
 
-<section class="gallery">
+<section class="blog-articles">
     <!-- This loops through the paginated posts -->
     {% for post in paginator.posts %}
             {{ post.content }}
@@ -41,7 +41,7 @@ tag: product
 
 <!-- pagination -->
 {% if paginator.total_pages > 1 %}
-<div class="pagination">
+<section class="pagination">
     {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
     {% else %}
@@ -50,7 +50,7 @@ tag: product
 
     {% for page in (1..paginator.total_pages) %}
     {% if page == paginator.page %}
-    <span class="webjeda">{{ page }}</span>
+    <span>{{ page }}</span>
     {% elsif page == 1 %}
     <a href="{{ site.baseurl }}/blog/index.html">{{ page }}</a>
     {% else %}
@@ -63,5 +63,5 @@ tag: product
     {% else %}
     <span>Next &raquo;</span>
     {% endif %}
-</div>
+</section>
 {% endif %}

@@ -16,21 +16,12 @@
   max-height:999em;
 }
 
-.read-more-state ~ .read-more-button:before {
+.read-more-state ~ .main-button:before {
   content: 'Read more';
 }
 
-.read-more-state:checked ~ .read-more-button:before {
+.read-more-state:checked ~ .main-button:before {
   content: 'Hide';
-}
-
-.read-more-button {
-  cursor: pointer;
-  display: inline-block;
-  padding: 0 .5em;
-  line-height: 2;
-  margin-left: 10px;
-  margin-bottom: 10px;
 }
 
 
