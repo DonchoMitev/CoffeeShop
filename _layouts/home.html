@@ -2,11 +2,18 @@
 <html lang="en">
     {% include head.html %}
 <body class="{% if page.type %}{{page.type}} {% endif %}{% if page.title %}{{ page.title | slugify }}{% else %}home{% endif %}">
-    {% include header.html %}
-<main>
-    {{content}}
-</main>
-    {% include footer.html %}
+    <div class="site">
+        <input type="checkbox" name="main-nav-toggle" id="main-nav-toggle" />
+        <header class="site-header">
+            {% include header.html %}
+        </header>
+        <main class="site-content">
+            {{content}}
+        </main>
+        <footer class="site-footer">
+            {% include footer.html %}
+        </footer>
+    </div>
 <script>
     window.onscroll = function () {
         myFunction()

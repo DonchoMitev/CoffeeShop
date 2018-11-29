@@ -1,155 +1,126 @@
-.site-header .navigation-bar {
+nav.main {
+  ul {
+    display: flex;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    margin: 0;
 
-	.site-title {
-		padding: 0;
-	}
+    li {
+      display: block;
+      list-style: none outside;
+      position: relative;
+      padding: 0 0.5rem 0 0;
 
-	.site-title a {
-		text-decoration: none;
-		color: black;
-		font-size: 2rem;
-		text-space: 2px;
+      &:hover > ul {
+        display: block;
+      }
 
-		span {
-			color: $primary-color;
-			text-shadow: $text-shadow;
-		}
-	}
-	nav.main {
-		ul {
-			padding: 0.5rem;
-			border-radius: 0.3rem;
-			margin: 0;
+      &:hover > a {
+        background: $primary-color;
+        color: white;
+        @include easeOut;
 
-			li {
-				display: block;
-				list-style: none outside;
-				position: relative;
-				padding: 0 0.5rem 0 0;
+      }
 
+      &:hover:nth-child(3) > a {
+        cursor: default;
+        transform: none;
+      }
 
-				&:hover > a {
-					background: $primary-color;
-					color: white;
+      a {
+        display: block;
+        padding: 0.5rem 1rem;
+        border: 1px solid $primary-color;
+        border-radius: 0.4rem;
+        text-decoration: none;
+        background: burlywood;
+        color: #000;
 
-					@include easeOut;
+        &:hover {
+          background: $primary-color;
+          border: 1px solid white;
+          color: white;
+          transform: scale(1.05);
+          @include easeOut;
+        }
+      }
+    }
 
-				}
+    ul {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: -0.5rem;
+      width: 10rem;
 
-				&:hover:nth-child(3) > a{
-					cursor: default;
-					transform: none;
-				}
+      li:not(:last-child) {
+        padding-bottom: 0.5rem;
+      }
+    }
+  }
 
-				a {
-					display: block;
-					padding: 0.5rem 1rem;
-					border: 1px solid $primary-color;
-					border-radius: 0.4rem;
-					text-decoration: none;
-					background: burlywood;
-					color: #000;
-
-					&:hover {
-						background: $primary-color;
-						border: 1px solid white;
-						color: white;
-						transform: scale(1.05);
-						@include easeOut;
-					}
-				}
-			}
-
-			ul {
-				display: none;
-				position: absolute;
-				top: 100%;
-				left: -0.5rem;
-				width: 10rem;
-
-				li:not(:last-child) {
-					padding-bottom: 0.5rem;
-				}
-			}
-		}
-	}
-
+  @include mq(tablet, max){
+    display: none;
+    & ul li:not(:first-child) {
+      padding-top: 0.5rem;
+    }
+  }
 }
 
 #main-nav-toggle,
 #toggle {
-	display: none;
-	cursor: pointer;
+  display: none;
+  cursor: pointer;
 
 }
 
 #toggle {
-	position: relative;
-	flex: 1 0 100%;
-	align-items: center;
-	align-content: center;
-	justify-content: center;
-	padding: 1rem 0;
+  position: relative;
+  flex: 1 0 100%;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  //border: 0.5px $primary-color dotted;
+  padding: 1rem 0;
+  @include mq(tablet, max) {
+    display: flex;
+    margin: 0 auto;
+  }
 }
 
 #toggle:before {
-	display: block;
-	content: '\2630';
-	padding-right: 0.3rem;
-	font-weight: bold;
-	font-size: 2rem;
+  display: block;
+  content: '\2630';
+  padding-right: 0.3rem;
+  font-weight: bold;
+  font-size: 2rem;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
+  #main-nav-toggle:checked + .site-header .site-navigation-bar nav.main {
+    display: block;
+    flex: 1 0 100%;
+    ul {
+      display: block;
+    }
 
-	#toggle {
-		display: flex;
-		margin: 0 auto;
+    li > ul {
+      display: none;
+    }
 
-	}
+    & li:hover > ul {
+      display: block;
+      width: 100%;
+      position: relative;
+    }
 
-	.site-header .navigation-bar nav.main {
-		display: none;
+    & ul ul li {
+      padding-left: 2rem;
+    }
+  }
 
-		& ul li:not(:first-child) {
-			padding-top: 0.5rem;
-		}
-
-	}
-
-	#main-nav-toggle:checked + .site-header .navigation-bar nav.main{
-		display: block;
-		flex: 1 0 100%;
-
-		& li > ul {
-			display: none;
-		}
-
-		& li:hover > ul {
-			display: block;
-			width: 100%;
-			position: relative;
-		}
-
-		& ul ul li {
-			padding-left: 2rem;
-		}
-	}
-
-	#main-nav-toggle:checked + .site-header .navigation-bar #toggle:before {
-		content: '\d7';
-	}
-
-}
-
-@media screen and (min-width: 800px) {
-
-	.site-header .navigation-bar nav.main ul{
-		display: flex;
-	}
-
-	.site-header .navigation-bar nav.main ul li:hover > ul {
-		display: block;
-	}
+  #main-nav-toggle:checked + .site-header .site-navigation-bar #toggle:before {
+    content: '\d7';
+  }
 }
 
