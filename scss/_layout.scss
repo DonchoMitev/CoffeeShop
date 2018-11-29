@@ -9,12 +9,14 @@ body {
     max-width: 70rem;
     margin: 0 auto;
     padding: 2rem;
+
   }
 
 }
 
 .section-title {
   text-align: center;
+  margin-bottom: 2rem;
 
   h2 {
     color: $primary-color;
@@ -55,25 +57,6 @@ body {
 
 }
 
-.about-us {
-  display: grid;
-  grid-template-columns: 1fr 10em 10em 1fr;
-  grid-template-rows: 5em 10em 5em;
-  grid-gap: .5em;
-
-  margin: 1em auto;
-  border: 1px dashed #777;
-  width: 31em;
-
-  img {
-    margin: auto;
-    width: 60%;
-    height: 50%;
-    border-radius: 10px;
-  }
-
-}
-
 .address {
   text-align: center;
   width: 80%;
@@ -83,11 +66,37 @@ body {
 .newsletter {
   background: $secondary-color;
   text-align: center;
-  padding: 1.5rem;
+  padding: 1.5rem 0 0 0;
   margin: 0;
-  border-top: $main-border;
-  border-bottom: $main-border;
+  border: $main-border;
+  border-radius: 10px;
   box-shadow: $box-shadow;
+
+  input:first-of-type {
+    width: 50%;
+    padding: 1rem;
+  }
+  .main-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    margin-left: 0.5rem;
+  }
+
+  @include mq(tablet, max) {
+    max-width: 90%;
+    margin: 0 auto;
+
+    input:first-of-type {
+      display: block;
+      margin-bottom: 0.5rem;
+      width: 100%;
+    }
+
+    .main-button {
+      width: 100%;
+      margin: 0;
+    }
+  }
 }
 
 .wrapper {

@@ -24,11 +24,10 @@ form {
     display: block;
     width: 100%;
     margin-top: 1em;
-    resize: none;
   }
 
   textarea {
-    height: 13rem;
+    height: 13.65rem;
   }
 
   input.main-button {
@@ -49,21 +48,6 @@ form {
   }
 }
 
-.newsletter-form {
-  margin: 0 auto;
-  input:first-of-type {
-    width: 50%;
-    padding: 1rem;
-  }
-  .main-button {
-    display: inline-block;
-    padding: 1rem 2rem;
-    margin-left: 0.5rem;
-  }
-}
-
-
-
 @media (max-width: 800px) {
   form.contact-form {
     padding: 0;
@@ -81,33 +65,5 @@ form {
       font-size: 1.2rem;
       padding: 0.6rem;
     }
-
-
-  }
-
-  form.newsletter-form {
-    max-width: 90%;
-    margin: 0 auto;
-    input:first-of-type {
-      display: block;
-      margin-bottom: 0.5rem;
-      width: 100%;
-    }
-
-    .main-button {
-      width: 100%;
-      margin: 0;
-    }
-  }
-
-}
-
-@media (max-width: 500px) {
-  form {
-    padding: 0;
-  }
-
-  .contact-form input,textarea {
-    padding: 0.8rem;
   }
 }
