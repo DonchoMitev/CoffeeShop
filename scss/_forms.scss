@@ -1,9 +1,12 @@
 form {
-  max-width: 70%;
+  width: 70%;
   text-align: center;
   margin: 1rem auto;
   padding: 2rem;
 
+  fieldset {
+    border: none;
+  }
   input, textarea {
     border-radius: 8px;
     border: none;
@@ -26,6 +29,11 @@ form {
     margin-top: 1em;
   }
 
+  legend {
+    font-size: 2rem;
+  }
+
+
   textarea {
     height: 13.65rem;
   }
@@ -46,12 +54,8 @@ form {
   .left {
     margin-right: 2%;
   }
-}
 
-@media (max-width: 800px) {
-  form.contact-form {
-    padding: 0;
-
+  @include  mq(tablet, max) {
     input,textarea {
       margin: 0.5rem auto;
     }
@@ -66,4 +70,12 @@ form {
       padding: 0.6rem;
     }
   }
+
+  @include mq(phone-wide, max) {
+    width: 100%;
+    padding: 0;
+
+
+  }
 }
+

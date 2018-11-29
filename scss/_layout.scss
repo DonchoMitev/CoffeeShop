@@ -10,6 +10,10 @@ body {
     margin: 0 auto;
     padding: 2rem;
 
+    & > section {
+      margin-top: 7rem;
+    }
+
   }
 
 }
@@ -83,18 +87,18 @@ body {
   }
 
   @include mq(tablet, max) {
-    max-width: 90%;
-    margin: 0 auto;
+    .newsletter-form {
+      padding: 0;
+      input:first-of-type {
+        display: block;
+        margin-bottom: 0.5rem;
+        width: 100%;
+      }
 
-    input:first-of-type {
-      display: block;
-      margin-bottom: 0.5rem;
-      width: 100%;
-    }
-
-    .main-button {
-      width: 100%;
-      margin: 0;
+      .main-button {
+        width: 100%;
+        margin: 0;
+      }
     }
   }
 }
@@ -104,7 +108,7 @@ body {
   grid-template-columns: 1fr 2fr 1fr;
   grid-auto-rows: minmax(100px, auto);
   grid-gap: 1em;
-  padding: 8rem 10rem;
+  padding: 5rem 10rem;
   p:last-child {
     padding-bottom: 0;
   }
