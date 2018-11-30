@@ -19,10 +19,9 @@ body {
 }
 
 //Sections Coffee main, Top Products, Services, Blog
-section .flex {
+section.flex {
   display: flex;
   justify-content: space-around;
-  align-items: center;
   flex-wrap: wrap;
   padding: 5rem 0;
 
@@ -30,12 +29,11 @@ section .flex {
     text-align: center;
   }
 
-  div.desc {
+  .desc {
     padding: 3rem;
     text-align: center;
   }
 }
-
 
 // style title - all sections
 .section-title {
@@ -74,9 +72,10 @@ section .flex {
   }
 }
 
-
 //First Section - home page - Coffee main
 .coffee-main {
+  width: 80%;
+  margin: auto;
   text-align: center;
 
   p {
@@ -88,15 +87,15 @@ section .flex {
 
 //Second Section Top Products - home page
 .product {
+  flex: 0 0 10rem;
   text-align: center;
   position: relative;
   cursor: pointer;
-  margin: 3rem;
-  perspective: 500px;
+  margin: 1rem;
 
   img {
-    width: 17rem;
-    height: 17rem;
+    width: 15rem;
+    height: 15rem;
     border: 2px solid $primary-color;
     border-radius: 5px;
   }
@@ -111,7 +110,7 @@ section .flex {
     left: 50%;
     transform: translate(-50%, -50%) rotateY(90deg);
     transform-origin: 50%;
-    background: rgba(255,255,255,0.7);
+    background: rgba(255, 255, 255, 0.7);
     border-radius: 6px;
     opacity: 0;
     transition: all 0.4s ease-in;
@@ -124,24 +123,20 @@ section .flex {
   }
 }
 
-
 //Third Section Our Services - home page
-.services {
+section.services {
   article {
-    flex-basis: 20rem;
+    margin: 1rem;
+    flex-basis: 15rem;
     @include mq(phablet, max) {
       flex: 1 0 100%;
     }
   }
 
-  img {
-    width: 12rem;
-    height: 12rem;
-  }
 }
 
 //Forth Section Newsletter - home page
-.newsletter {
+section.newsletter {
   background: $secondary-color;
   text-align: center;
   padding: 1.5rem 0 0 0;
@@ -149,29 +144,29 @@ section .flex {
   border: $main-border;
   border-radius: 10px;
   box-shadow: $box-shadow;
-
-  input:first-of-type {
-    width: 50%;
-    padding: 1rem;
+  .newsletter-form {
+    margin: 0 auto;
+    input:first-of-type {
+      width: 70%;
+      padding: 1rem;
+    }
+    .main-button {
+      padding: 1rem 2rem;
+      margin-left: 0.5rem;
+    }
   }
-  .main-button {
-    display: inline-block;
-    padding: 1rem 2rem;
-    margin-left: 0.5rem;
-  }
-
   @include mq(tablet, max) {
     .newsletter-form {
       padding: 0;
+      width: 85%;
       input:first-of-type {
-        display: block;
-        margin-bottom: 0.5rem;
         width: 100%;
+        margin: 0.5rem 0;
       }
-
       .main-button {
+        display: block;
         width: 100%;
-        margin: 0;
+        margin: 0.5rem 0 1rem 0;
       }
     }
   }
@@ -192,6 +187,8 @@ section .flex {
   img {
     width: 14rem;
     height: 13rem;
+    border: $main-border;
+    border-radius: 8px;
   }
 
   .box1 {
@@ -218,75 +215,95 @@ section .flex {
 //Page Machines
 
 //Page Blog
+section.pagination {
+  margin: 0;
+}
+
+section.blog-articles {
+  margin: 0;
+
+  img {
+    width: 100%;
+  }
+  article.card {
+    margin: 1rem;
+    flex-basis: 20rem;
+    border: $main-border;
+    border-radius: 6px;
+    @include mq(phone, max) {
+      margin: 1rem 0;
+    }
+  }
+}
 
 
 
 //Page Contacts
-
-.address {
-  text-align: center;
-  width: 80%;
-  margin: auto;
-}
-
-.contact-form {
-  input, textarea {
-    padding: 1.2rem;
-    display: block;
-    width: 100%;
-    margin-top: 1em;
+section.site-contacts {
+  .address {
+    text-align: center;
+    width: 80%;
+    margin: auto;
   }
 
-  legend {
-    font-size: 2rem;
-  }
-
-
-  textarea {
-    height: 13.65rem;
-  }
-
-  input.main-button {
-    font-size: 1.6rem;
-    padding: 0.8rem;
-  }
-
-  .half {
-    float: left;
-    width: 48%;
-    margin-bottom: 1em;
-  }
-
-  .right { width: 50%; }
-
-  .left {
-    margin-right: 2%;
-  }
-
-  @include  mq(tablet, max) {
-    input,textarea {
-      margin: 0.5rem auto;
-    }
-    .half {
+  .contact-form {
+    input, textarea {
+      padding: 1.2rem;
+      display: block;
       width: 100%;
-      float: none;
-      margin-bottom: 0;
+      margin-top: 1em;
+    }
+
+    legend {
+      font-size: 2rem;
+    }
+
+    textarea {
+      height: 13.65rem;
     }
 
     input.main-button {
-      font-size: 1.2rem;
-      padding: 0.6rem;
+      font-size: 1.6rem;
+      padding: 0.8rem;
+    }
+
+    .half {
+      float: left;
+      width: 48%;
+      margin-bottom: 1em;
+    }
+
+    .right {
+      width: 50%;
+    }
+
+    .left {
+      margin-right: 2%;
+    }
+
+    @include mq(tablet, max) {
+      input, textarea {
+        margin: 0.5rem auto;
+      }
+      .half {
+        width: 100%;
+        float: none;
+        margin-bottom: 0;
+      }
+
+      input.main-button {
+        font-size: 1.2rem;
+        padding: 0.6rem;
+      }
+    }
+
+    @include mq(phone-wide, max) {
+      width: 100%;
+      padding: 0;
+
     }
   }
-
-  @include mq(phone-wide, max) {
-    width: 100%;
-    padding: 0;
-
-
-  }
 }
-
 
 
 

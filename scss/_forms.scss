@@ -3,6 +3,9 @@ form {
   text-align: center;
   margin: 1rem auto;
   padding: 2rem;
+  @include mq(phone, max) {
+    padding: 0;
+  }
 
   fieldset {
     border: none;

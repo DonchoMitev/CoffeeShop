@@ -12,9 +12,10 @@ html {
 	html { font-size: $font-size-lv3; }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
 	html { font-size: $font-size-lv4; }
 }
+
 
 body, table, th, td, form, input, textarea, option, select {
 	font: inherit;
