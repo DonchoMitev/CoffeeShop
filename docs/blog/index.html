@@ -3,11 +3,11 @@
     <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width"/>
-    <title>My Blog</title>
+    <title>Coffee Shop | My Blog</title>
     <link rel="stylesheet" href="/CoffeeShop/css/styles.css" type="text/css"/>
 </head>
 
-<body class="my-blog">
+<body class="coffee-shop-my-blog">
     <div class="site">
         <input type="checkbox" name="main-nav-toggle" id="main-nav-toggle" />
         <header class="site-header">
@@ -22,7 +22,7 @@
         <p><i class="fas fa-envelope"></i> contact@coffeeshop.com</p>
     </div>
 </div>
-<section class="site-navigation-bar" id="navigation-bar">
+<div class="site-navigation-bar" id="navigation-bar">
     <div class="site-title">
         <a href="/CoffeeShop/"><span>Coffee</span> Shop</a>
     </div>
@@ -45,7 +45,7 @@
             <li><a href="/CoffeeShop/contacts/">Contacts</a></li>
         </ul>
     </nav>
-</section>
+</div>
 <div class="site-header-slogan">
     <h1>
         All you need to feel better, is coffee
@@ -81,10 +81,6 @@
     <a href="/CoffeeShop/blog/page4/">4</a>
     
     
-    
-    <a href="/CoffeeShop/blog/page5/">5</a>
-    
-    
 
     
     <a href="/CoffeeShop/blog/page2/">Next &raquo;</a>
@@ -95,49 +91,35 @@
 <section class="blog-articles flex">
     <!-- This loops through the paginated posts -->
     
-            <article class="card" id="two">
-    <img src="../images/post-2.jpg" class="blog-img"/>
-    <p class="article">
-        Good news for heavy coffee drinkers
+            <article class="card" id="seven">
+    <img src="/CoffeeShop/images/post-7.jpg" alt="post-image" class="blog-img"/>
+    <h3>
+        Coffee and heart health
+    </h3>
+    <input type="checkbox" class="read-more-state" id="post-7"/>
+    <p class="read-more-wrap">Researchers at Beth Israel Deaconess Medical Center<span
+            class="read-more-target"> (BIDMC) and Harvard School of Public Health, concluded that drinking coffee in moderation protects against heart failure. They defined 'in moderation' as 2 European cups (equivalent to two 8-ounce American servings) per day.10
+
+People who drank four European cups on a daily basis had an 11% lower risk of heart failure, compared to those who did not.
+
+The authors stressed that their results "did show a possible benefit, but like with so many other things we consume, it really depends on how much coffee you drink."</span>
     </p>
-    <input type="checkbox" class="read-more-state" id="post-2"/>
-    <p class="read-more-wrap">The scientists found that, as predicted, coffee drinkers had a lower risk of<span
-            class="read-more-target"> death over the course of the follow-up. They also found that this reduction in risk extended to people who drank eight or more cups each day.
-
-It also affected people who metabolize caffeine slower or faster than normal, and it worked across all coffee types (although the benefits were slightly less pronounced for instant coffee).
-
-The fact that individuals who process caffeine differently and those who drink decaffeinated coffee also saw benefits hints that caffeine is not the main player in this beneficial relationship. Coffee consists of hundreds of different chemicals, making this a tricky code to crack.
-
-One group of chemicals that scientists have been interested in is polyphenols, which are found in reduced levels in instant coffee. Much more work will be needed to understand how they fit into the bigger picture, though.
-
-The new study is based on observational data, but because of the large number of participants used, the authors conclude:
-
-"[T]hese results provide further evidence that coffee drinking can be part of a healthy diet and may provide reassurance to those who drink coffee and enjoy it."</span>
-    </p>
-    <label for="post-2" class="main-button"></label>
+    <label for="post-7" class="main-button"></label>
 
 </article>
     
-            <article class="card" id="two">
-    <img src="../images/post-2.jpg" class="blog-img"/>
-    <p class="article">
-        Good news for heavy coffee drinkers
+            <article class="card" id="six">
+    <img src="/CoffeeShop/images/post-6.jpg" alt="post-image" class="blog-img"/>
+    <h3>
+        Coffee and Parkinson's disease
+    </h3>
+    <input type="checkbox" class="read-more-state" id="post-6"/>
+    <p class="read-more-wrap">TResearchers in the U.S. carried out a study that <span
+            class="read-more-target">assessed the link between coffee consumption and Parkinson's disease risk. The authors of the study concluded that "higher coffee and caffeine intake is associated with a significantly lower incidence of Parkinson's disease".5
+
+In addition, caffeine in coffee may help control movement in people suffering from Parkinson's, according to a study conducted at the Research Institute of the McGill University Health Centre (RI MUHC) that was published in the journal Neurology.</span>
     </p>
-    <input type="checkbox" class="read-more-state" id="post-2"/>
-    <p class="read-more-wrap">The scientists found that, as predicted, coffee drinkers had a lower risk of<span
-            class="read-more-target"> death over the course of the follow-up. They also found that this reduction in risk extended to people who drank eight or more cups each day.
-
-It also affected people who metabolize caffeine slower or faster than normal, and it worked across all coffee types (although the benefits were slightly less pronounced for instant coffee).
-
-The fact that individuals who process caffeine differently and those who drink decaffeinated coffee also saw benefits hints that caffeine is not the main player in this beneficial relationship. Coffee consists of hundreds of different chemicals, making this a tricky code to crack.
-
-One group of chemicals that scientists have been interested in is polyphenols, which are found in reduced levels in instant coffee. Much more work will be needed to understand how they fit into the bigger picture, though.
-
-The new study is based on observational data, but because of the large number of participants used, the authors conclude:
-
-"[T]hese results provide further evidence that coffee drinking can be part of a healthy diet and may provide reassurance to those who drink coffee and enjoy it."</span>
-    </p>
-    <label for="post-2" class="main-button"></label>
+    <label for="post-6" class="main-button"></label>
 
 </article>
     
@@ -168,10 +150,6 @@ The new study is based on observational data, but because of the large number of
     <a href="/CoffeeShop/blog/page4/">4</a>
     
     
-    
-    <a href="/CoffeeShop/blog/page5/">5</a>
-    
-    
 
     
     <a href="/CoffeeShop/blog/page2/">Next &raquo;</a>
@@ -182,7 +160,7 @@ The new study is based on observational data, but because of the large number of
         <footer class="site-footer">
             <div class="footer flex">
     <section class="about-footer">
-        <header class="footer-title">
+        <div class="footer-title">
             <h5>
                 <a href="/CoffeeShop"><span>Coffee</span> Shop</a>
             </h5>
@@ -191,16 +169,16 @@ The new study is based on observational data, but because of the large number of
                 <i class="fab fa-twitter"></i>
                 <i class="fab fa-google-plus-g"></i>
             </div>
-        </header>
+        </div>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aspernatur aut
             consectetur debitis
             delectus, ducimus est excepturi hic inventore iste molestias nemo officia perferendis porro quasi quidem
             quisquam sequi ullam?</p>
     </section>
     <section class="sitemap-footer">
-        <header>
-            <h5>QUICK LINKS</h5>
-        </header>
+
+        <h5>QUICK LINKS</h5>
+
         <ul>
             <li><a href="/CoffeeShop">Home</a></li>
             <li><a href="/CoffeeShop/about/">About</a></li>
@@ -210,9 +188,9 @@ The new study is based on observational data, but because of the large number of
     </section>
 
     <section class="contacts-footer">
-        <header>
-            <h5>CONTACT INFO</h5>
-        </header>
+
+        <h5>CONTACT INFO</h5>
+
         <ul>
             <li><i class="fas fa-phone-volume"></i> +359 889 44 44 44</li>
             <li><i class="fas fa-envelope"></i> contacts@coffeeshop.com</li>

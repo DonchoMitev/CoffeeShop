@@ -25,7 +25,7 @@ section.flex {
   flex-wrap: wrap;
   padding: 5rem 0;
 
-  article.card {
+  div.card {
     text-align: center;
   }
 
@@ -79,10 +79,16 @@ section.flex {
   text-align: center;
 
   p {
-    color: #4d4d4d;
+    color: #1b1b1b;
     text-shadow: 2px 2px white;
   }
 
+}
+
+//Wrapper img
+.wrapper-img{
+  width: 17rem;
+  height: auto;
 }
 
 //Second Section Top Products - home page
@@ -94,8 +100,8 @@ section.flex {
   margin: 1rem;
 
   img {
-    width: 15rem;
-    height: 15rem;
+    width: 100%;
+    height: auto;
     border: 2px solid $primary-color;
     border-radius: 5px;
   }
@@ -125,7 +131,7 @@ section.flex {
 
 //Third Section Our Services - home page
 section.services {
-  article {
+  .card {
     margin: 1rem;
     flex-basis: 15rem;
     @include mq(phablet, max) {
@@ -210,9 +216,32 @@ section.newsletter {
   }
 }
 
-//Page Coffee beans
+//
 
-//Page Machines
+//Page Machines & Page Coffee beans
+section.coffee-machines .machines, section.coffee-beans .beans{
+  .card {
+    border: $main-border;
+    margin: 1.5rem;
+    border-radius: 8px;
+    &:hover {
+      transform: scale(1.05);
+      @include easeOut;
+
+    }
+  }
+
+  .wrapper-img {
+    img{
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .desc {
+    padding:2rem 0 0 0;
+  }
+}
 
 //Page Blog
 section.pagination {
@@ -228,10 +257,16 @@ section.blog-articles {
   article.card {
     margin: 1rem;
     flex-basis: 20rem;
-    border: $main-border;
     border-radius: 6px;
     @include mq(phone, max) {
       margin: 1rem 0;
+    }
+    h3, label.main-button {
+      padding-top: 0.5rem;
+      text-align: center;
+    }
+    .blog-img {
+      border-radius: 8px;
     }
   }
 }

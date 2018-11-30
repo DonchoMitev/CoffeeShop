@@ -1,8 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/CoffeeShop/feed.xml" rel="self" type="application/atom+xml" /><link href="/CoffeeShop/" rel="alternate" type="text/html" /><updated>2018-11-30T15:51:43+02:00</updated><id>/CoffeeShop/feed.xml</id><title type="html">CoffeeShop</title><subtitle>This is very beautiful theme for Jekyll</subtitle><entry><title type="html">Coffee Is Good For You</title><link href="/CoffeeShop/jekyll/update/2018/11/22/Blog-1.html" rel="alternate" type="text/html" title="Coffee Is Good For You" /><published>2018-11-22T15:03:46+02:00</published><updated>2018-11-22T15:03:46+02:00</updated><id>/CoffeeShop/jekyll/update/2018/11/22/Blog-1</id><content type="html" xml:base="/CoffeeShop/jekyll/update/2018/11/22/Blog-1.html">&lt;article class=&quot;card&quot; id=&quot;one&quot;&gt;
-    &lt;img src=&quot;../images/post-1.jpg&quot; class=&quot;blog-img&quot;/&gt;
-    &lt;p class=&quot;article&quot;&gt;
-        Coffee Is Good For You
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/CoffeeShop/feed.xml" rel="self" type="application/atom+xml" /><link href="/CoffeeShop/" rel="alternate" type="text/html" /><updated>2018-11-30T22:17:49+02:00</updated><id>/CoffeeShop/feed.xml</id><title type="html">CoffeeShop</title><subtitle>This is very beautiful theme for Jekyll</subtitle><entry><title type="html">Hello</title><link href="/CoffeeShop/2018/11/22/Blog-7.html" rel="alternate" type="text/html" title="Hello" /><published>2018-11-22T15:03:46+02:00</published><updated>2018-11-22T15:03:46+02:00</updated><id>/CoffeeShop/2018/11/22/Blog-7</id><content type="html" xml:base="/CoffeeShop/2018/11/22/Blog-7.html">&lt;article class=&quot;card&quot; id=&quot;seven&quot;&gt;
+    &lt;img src=&quot;/CoffeeShop/images/post-7.jpg&quot; alt=&quot;post-image&quot; class=&quot;blog-img&quot;/&gt;
+    &lt;h3&gt;
+        Coffee and heart health
+    &lt;/h3&gt;
+    &lt;input type=&quot;checkbox&quot; class=&quot;read-more-state&quot; id=&quot;post-7&quot;/&gt;
+    &lt;p class=&quot;read-more-wrap&quot;&gt;Researchers at Beth Israel Deaconess Medical Center&lt;span
+            class=&quot;read-more-target&quot;&gt; (BIDMC) and Harvard School of Public Health, concluded that drinking coffee in moderation protects against heart failure. They defined 'in moderation' as 2 European cups (equivalent to two 8-ounce American servings) per day.10
+
+People who drank four European cups on a daily basis had an 11% lower risk of heart failure, compared to those who did not.
+
+The authors stressed that their results &quot;did show a possible benefit, but like with so many other things we consume, it really depends on how much coffee you drink.&quot;&lt;/span&gt;
     &lt;/p&gt;
+    &lt;label for=&quot;post-7&quot; class=&quot;main-button&quot;&gt;&lt;/label&gt;
+
+&lt;/article&gt;</content><author><name></name></author><summary type="html">Coffee and heart health Researchers at Beth Israel Deaconess Medical Center (BIDMC) and Harvard School of Public Health, concluded that drinking coffee in moderation protects against heart failure. They defined 'in moderation' as 2 European cups (equivalent to two 8-ounce American servings) per day.10</summary></entry><entry><title type="html">Hello</title><link href="/CoffeeShop/2018/11/22/Blog-1.html" rel="alternate" type="text/html" title="Hello" /><published>2018-11-22T15:03:46+02:00</published><updated>2018-11-22T15:03:46+02:00</updated><id>/CoffeeShop/2018/11/22/Blog-1</id><content type="html" xml:base="/CoffeeShop/2018/11/22/Blog-1.html">&lt;article class=&quot;card&quot; id=&quot;one&quot;&gt;
+    &lt;img src=&quot;/CoffeeShop/images/post-1.jpg&quot; alt=&quot;post-image&quot; class=&quot;blog-img&quot;/&gt;
+    &lt;h3&gt;
+        Coffee Is Good For You
+    &lt;/h3&gt;
     &lt;input type=&quot;checkbox&quot; class=&quot;read-more-state&quot; id=&quot;post-1&quot;/&gt;
     &lt;p class=&quot;read-more-wrap&quot;&gt;New research suggests that people who drink two to three cups of coffee a day—&lt;span
             class=&quot;read-more-target&quot;&gt; caffeinated or not—may have a lower chance of dying from certain illnesses than those who abstain.
@@ -11,10 +26,10 @@ The study, thought to be the largest of its kind, followed more than 500,000 peo
     &lt;/p&gt;
     &lt;label for=&quot;post-1&quot; class=&quot;main-button&quot;&gt;&lt;/label&gt;
 &lt;/article&gt;</content><author><name></name></author><summary type="html">Coffee Is Good For You New research suggests that people who drink two to three cups of coffee a day— caffeinated or not—may have a lower chance of dying from certain illnesses than those who abstain.</summary></entry><entry><title type="html">Hello</title><link href="/CoffeeShop/2018/11/22/Blog-2.html" rel="alternate" type="text/html" title="Hello" /><published>2018-11-22T15:03:46+02:00</published><updated>2018-11-22T15:03:46+02:00</updated><id>/CoffeeShop/2018/11/22/Blog-2</id><content type="html" xml:base="/CoffeeShop/2018/11/22/Blog-2.html">&lt;article class=&quot;card&quot; id=&quot;two&quot;&gt;
-    &lt;img src=&quot;../images/post-2.jpg&quot; class=&quot;blog-img&quot;/&gt;
-    &lt;p class=&quot;article&quot;&gt;
+    &lt;img src=&quot;/CoffeeShop/images/post-2.jpg&quot; alt=&quot;post-image&quot; class=&quot;blog-img&quot;/&gt;
+    &lt;h3&gt;
         Good news for heavy coffee drinkers
-    &lt;/p&gt;
+    &lt;/h3&gt;
     &lt;input type=&quot;checkbox&quot; class=&quot;read-more-state&quot; id=&quot;post-2&quot;/&gt;
     &lt;p class=&quot;read-more-wrap&quot;&gt;The scientists found that, as predicted, coffee drinkers had a lower risk of&lt;span
             class=&quot;read-more-target&quot;&gt; death over the course of the follow-up. They also found that this reduction in risk extended to people who drank eight or more cups each day.
@@ -31,151 +46,64 @@ The new study is based on observational data, but because of the large number of
     &lt;/p&gt;
     &lt;label for=&quot;post-2&quot; class=&quot;main-button&quot;&gt;&lt;/label&gt;
 
-&lt;/article&gt;</content><author><name></name></author><summary type="html">Good news for heavy coffee drinkers The scientists found that, as predicted, coffee drinkers had a lower risk of death over the course of the follow-up. They also found that this reduction in risk extended to people who drank eight or more cups each day.</summary></entry><entry><title type="html">Hello</title><link href="/CoffeeShop/2018/11/22/Blog-3.html" rel="alternate" type="text/html" title="Hello" /><published>2018-11-22T15:03:46+02:00</published><updated>2018-11-22T15:03:46+02:00</updated><id>/CoffeeShop/2018/11/22/Blog-3</id><content type="html" xml:base="/CoffeeShop/2018/11/22/Blog-3.html">&lt;article class=&quot;card&quot; id=&quot;two&quot;&gt;
-    &lt;img src=&quot;../images/post-2.jpg&quot; class=&quot;blog-img&quot;/&gt;
-    &lt;p class=&quot;article&quot;&gt;
-        Good news for heavy coffee drinkers
+&lt;/article&gt;</content><author><name></name></author><summary type="html">Good news for heavy coffee drinkers The scientists found that, as predicted, coffee drinkers had a lower risk of death over the course of the follow-up. They also found that this reduction in risk extended to people who drank eight or more cups each day.</summary></entry><entry><title type="html">Hello</title><link href="/CoffeeShop/2018/11/22/Blog-3.html" rel="alternate" type="text/html" title="Hello" /><published>2018-11-22T15:03:46+02:00</published><updated>2018-11-22T15:03:46+02:00</updated><id>/CoffeeShop/2018/11/22/Blog-3</id><content type="html" xml:base="/CoffeeShop/2018/11/22/Blog-3.html">&lt;article class=&quot;card&quot; id=&quot;three&quot;&gt;
+    &lt;img src=&quot;/CoffeeShop/images/post-3.jpg&quot; alt=&quot;post-image&quot; class=&quot;blog-img&quot;/&gt;
+    &lt;h3&gt;
+        Study: Coffee Cuts Cancer Risk
+    &lt;/h3&gt;
+    &lt;input type=&quot;checkbox&quot; class=&quot;read-more-state&quot; id=&quot;post-3&quot;/&gt;
+    &lt;p class=&quot;read-more-wrap&quot;&gt;A daily coffee routine may reduce a person’s risk of developing hepatocellular carcinoma (HCC), the most
+        &lt;span class=&quot;read-more-target&quot;&gt; common form of liver cancer—and the higher the coffee intake, the lower the risk. V. Wendy Setiawan of the University of Southern California presented this unpublished finding at the American Association for Cancer Research (AACR) annual meeting held in San Diego, California, this week (April 9).
+        Setiawan and her colleagues enrolled nearly 180,000 participants from a variety of ethnic backgrounds in a long-term prospective study, and followed them for up to 18 years. Nearly 500 of the participants developed HCC. Overall, the study participants who reported drinking one to three cups of coffee per day had a 29 percent drop in HCC risk; those who drank four or more cups saw their risk of developing HCC drop by 42 percent.&lt;/span&gt;
     &lt;/p&gt;
-    &lt;input type=&quot;checkbox&quot; class=&quot;read-more-state&quot; id=&quot;post-2&quot;/&gt;
-    &lt;p class=&quot;read-more-wrap&quot;&gt;The scientists found that, as predicted, coffee drinkers had a lower risk of&lt;span
-            class=&quot;read-more-target&quot;&gt; death over the course of the follow-up. They also found that this reduction in risk extended to people who drank eight or more cups each day.
+    &lt;label for=&quot;post-3&quot; class=&quot;main-button&quot;&gt;&lt;/label&gt;
 
-It also affected people who metabolize caffeine slower or faster than normal, and it worked across all coffee types (although the benefits were slightly less pronounced for instant coffee).
+&lt;/article&gt;</content><author><name></name></author><summary type="html">Study: Coffee Cuts Cancer Risk A daily coffee routine may reduce a person’s risk of developing hepatocellular carcinoma (HCC), the most common form of liver cancer—and the higher the coffee intake, the lower the risk. V. Wendy Setiawan of the University of Southern California presented this unpublished finding at the American Association for Cancer Research (AACR) annual meeting held in San Diego, California, this week (April 9). Setiawan and her colleagues enrolled nearly 180,000 participants from a variety of ethnic backgrounds in a long-term prospective study, and followed them for up to 18 years. Nearly 500 of the participants developed HCC. Overall, the study participants who reported drinking one to three cups of coffee per day had a 29 percent drop in HCC risk; those who drank four or more cups saw their risk of developing HCC drop by 42 percent.</summary></entry><entry><title type="html">Hello</title><link href="/CoffeeShop/2018/11/22/Blog-4.html" rel="alternate" type="text/html" title="Hello" /><published>2018-11-22T15:03:46+02:00</published><updated>2018-11-22T15:03:46+02:00</updated><id>/CoffeeShop/2018/11/22/Blog-4</id><content type="html" xml:base="/CoffeeShop/2018/11/22/Blog-4.html">&lt;article class=&quot;card&quot; id=&quot;four&quot;&gt;
+    &lt;img src=&quot;/CoffeeShop/images/post-4.jpg&quot; alt=&quot;post-image&quot; class=&quot;blog-img&quot;/&gt;
+    &lt;h3&gt;
+        How Caffeine Affects the Body Clock
+    &lt;/h3&gt;
+    &lt;input type=&quot;checkbox&quot; class=&quot;read-more-state&quot; id=&quot;post-4&quot;/&gt;
+    &lt;p class=&quot;read-more-wrap&quot;&gt;Coffee, tea, and other caffeinated drinks can make a person feel more awake and alert, but new research &lt;span
+            class=&quot;read-more-target&quot;&gt; suggests that, when consumed in the evening, caffeine might also delay the body’s internal clock. A paper published in Science Translational Medicine today (September 16) shows that people given a dose of caffeine a few hours before their normal bedtimes exhibited a delay in their circadian rhythms of more than half an hour.
 
-The fact that individuals who process caffeine differently and those who drink decaffeinated coffee also saw benefits hints that caffeine is not the main player in this beneficial relationship. Coffee consists of hundreds of different chemicals, making this a tricky code to crack.
+“We already knew that caffeine is a stimulant and can keep you awake and make it difficult to fall asleep at night if taken too close to bedtime,” said behavioral neurologist Charmane Eastman of Rush University in Chicago, who was not involved in the work. “This study shows that caffeine can also make your internal circadian body clock later, which could make it difficult to fall asleep the next night even if you don’t take caffeine again.”
 
-One group of chemicals that scientists have been interested in is polyphenols, which are found in reduced levels in instant coffee. Much more work will be needed to understand how they fit into the bigger picture, though.
-
-The new study is based on observational data, but because of the large number of participants used, the authors conclude:
-
-&quot;[T]hese results provide further evidence that coffee drinking can be part of a healthy diet and may provide reassurance to those who drink coffee and enjoy it.&quot;&lt;/span&gt;
+&lt;/span&gt;
     &lt;/p&gt;
-    &lt;label for=&quot;post-2&quot; class=&quot;main-button&quot;&gt;&lt;/label&gt;
+    &lt;label for=&quot;post-4&quot; class=&quot;main-button&quot;&gt;&lt;/label&gt;
 
-&lt;/article&gt;</content><author><name></name></author><summary type="html">Good news for heavy coffee drinkers The scientists found that, as predicted, coffee drinkers had a lower risk of death over the course of the follow-up. They also found that this reduction in risk extended to people who drank eight or more cups each day.</summary></entry><entry><title type="html">Hello</title><link href="/CoffeeShop/2018/11/22/Blog-4.html" rel="alternate" type="text/html" title="Hello" /><published>2018-11-22T15:03:46+02:00</published><updated>2018-11-22T15:03:46+02:00</updated><id>/CoffeeShop/2018/11/22/Blog-4</id><content type="html" xml:base="/CoffeeShop/2018/11/22/Blog-4.html">&lt;article class=&quot;card&quot; id=&quot;two&quot;&gt;
-    &lt;img src=&quot;../images/post-2.jpg&quot; class=&quot;blog-img&quot;/&gt;
-    &lt;p class=&quot;article&quot;&gt;
-        Good news for heavy coffee drinkers
+&lt;/article&gt;</content><author><name></name></author><summary type="html">How Caffeine Affects the Body Clock Coffee, tea, and other caffeinated drinks can make a person feel more awake and alert, but new research suggests that, when consumed in the evening, caffeine might also delay the body’s internal clock. A paper published in Science Translational Medicine today (September 16) shows that people given a dose of caffeine a few hours before their normal bedtimes exhibited a delay in their circadian rhythms of more than half an hour.</summary></entry><entry><title type="html">Hello</title><link href="/CoffeeShop/2018/11/22/Blog-5.html" rel="alternate" type="text/html" title="Hello" /><published>2018-11-22T15:03:46+02:00</published><updated>2018-11-22T15:03:46+02:00</updated><id>/CoffeeShop/2018/11/22/Blog-5</id><content type="html" xml:base="/CoffeeShop/2018/11/22/Blog-5.html">&lt;article class=&quot;card&quot; id=&quot;five&quot;&gt;
+    &lt;img src=&quot;/CoffeeShop/images/post-5.jpg&quot; alt=&quot;post-image&quot; class=&quot;blog-img&quot;/&gt;
+    &lt;h3&gt;
+        Coffee and diabetes
+    &lt;/h3&gt;
+    &lt;input type=&quot;checkbox&quot; class=&quot;read-more-state&quot; id=&quot;post-5&quot;/&gt;
+    &lt;p class=&quot;read-more-wrap&quot;&gt;Coffee may help protect against type 2 diabetes. Researchers at UCLA identified that
+        drinking&lt;span
+                class=&quot;read-more-target&quot;&gt;  coffee increases plasma levels of the protein sex hormone-binding globulin (SHBG). SHBG controls the biological activity of the body's sex hormones (testosterone and estrogen) which play a role in the development of type 2 diabetes.4
+
+Dr. Simin Liu, one of the authors of the study, said that an &quot;inverse association&quot; exists between coffee consumption and risk for type 2 diabetes.
+
+Increased coffee consumption may reduce risk of type 2 diabetes - the Harvard School of Public Health (HSPH) researchers gathered data from three studies. In these studies, the diets of the participants were evaluated using questionnaires every 4 years, with participants who reported having type 2 diabetes filling out additional questionnaires. In total, 7,269 study participants had type 2 diabetes.
+
+The researchers found that the participants who increased their coffee intake by more than one cup a day (on average, an increase of 1.69 cups per day) over a 4-year period had an 11% lower type 2 diabetes risk over the subsequent 4 years, compared with people who did not change their intake.
+
+&lt;/span&gt;
     &lt;/p&gt;
-    &lt;input type=&quot;checkbox&quot; class=&quot;read-more-state&quot; id=&quot;post-2&quot;/&gt;
-    &lt;p class=&quot;read-more-wrap&quot;&gt;The scientists found that, as predicted, coffee drinkers had a lower risk of&lt;span
-            class=&quot;read-more-target&quot;&gt; death over the course of the follow-up. They also found that this reduction in risk extended to people who drank eight or more cups each day.
+    &lt;label for=&quot;post-5&quot; class=&quot;main-button&quot;&gt;&lt;/label&gt;
 
-It also affected people who metabolize caffeine slower or faster than normal, and it worked across all coffee types (although the benefits were slightly less pronounced for instant coffee).
+&lt;/article&gt;</content><author><name></name></author><summary type="html">Coffee and diabetes Coffee may help protect against type 2 diabetes. Researchers at UCLA identified that drinking coffee increases plasma levels of the protein sex hormone-binding globulin (SHBG). SHBG controls the biological activity of the body's sex hormones (testosterone and estrogen) which play a role in the development of type 2 diabetes.4</summary></entry><entry><title type="html">Hello</title><link href="/CoffeeShop/2018/11/22/Blog-6.html" rel="alternate" type="text/html" title="Hello" /><published>2018-11-22T15:03:46+02:00</published><updated>2018-11-22T15:03:46+02:00</updated><id>/CoffeeShop/2018/11/22/Blog-6</id><content type="html" xml:base="/CoffeeShop/2018/11/22/Blog-6.html">&lt;article class=&quot;card&quot; id=&quot;six&quot;&gt;
+    &lt;img src=&quot;/CoffeeShop/images/post-6.jpg&quot; alt=&quot;post-image&quot; class=&quot;blog-img&quot;/&gt;
+    &lt;h3&gt;
+        Coffee and Parkinson's disease
+    &lt;/h3&gt;
+    &lt;input type=&quot;checkbox&quot; class=&quot;read-more-state&quot; id=&quot;post-6&quot;/&gt;
+    &lt;p class=&quot;read-more-wrap&quot;&gt;TResearchers in the U.S. carried out a study that &lt;span
+            class=&quot;read-more-target&quot;&gt;assessed the link between coffee consumption and Parkinson's disease risk. The authors of the study concluded that &quot;higher coffee and caffeine intake is associated with a significantly lower incidence of Parkinson's disease&quot;.5
 
-The fact that individuals who process caffeine differently and those who drink decaffeinated coffee also saw benefits hints that caffeine is not the main player in this beneficial relationship. Coffee consists of hundreds of different chemicals, making this a tricky code to crack.
-
-One group of chemicals that scientists have been interested in is polyphenols, which are found in reduced levels in instant coffee. Much more work will be needed to understand how they fit into the bigger picture, though.
-
-The new study is based on observational data, but because of the large number of participants used, the authors conclude:
-
-&quot;[T]hese results provide further evidence that coffee drinking can be part of a healthy diet and may provide reassurance to those who drink coffee and enjoy it.&quot;&lt;/span&gt;
+In addition, caffeine in coffee may help control movement in people suffering from Parkinson's, according to a study conducted at the Research Institute of the McGill University Health Centre (RI MUHC) that was published in the journal Neurology.&lt;/span&gt;
     &lt;/p&gt;
-    &lt;label for=&quot;post-2&quot; class=&quot;main-button&quot;&gt;&lt;/label&gt;
+    &lt;label for=&quot;post-6&quot; class=&quot;main-button&quot;&gt;&lt;/label&gt;
 
-&lt;/article&gt;</content><author><name></name></author><summary type="html">Good news for heavy coffee drinkers The scientists found that, as predicted, coffee drinkers had a lower risk of death over the course of the follow-up. They also found that this reduction in risk extended to people who drank eight or more cups each day.</summary></entry><entry><title type="html">Hello</title><link href="/CoffeeShop/2018/11/22/Blog-5.html" rel="alternate" type="text/html" title="Hello" /><published>2018-11-22T15:03:46+02:00</published><updated>2018-11-22T15:03:46+02:00</updated><id>/CoffeeShop/2018/11/22/Blog-5</id><content type="html" xml:base="/CoffeeShop/2018/11/22/Blog-5.html">&lt;article class=&quot;card&quot; id=&quot;two&quot;&gt;
-    &lt;img src=&quot;../images/post-2.jpg&quot; class=&quot;blog-img&quot;/&gt;
-    &lt;p class=&quot;article&quot;&gt;
-        Good news for heavy coffee drinkers
-    &lt;/p&gt;
-    &lt;input type=&quot;checkbox&quot; class=&quot;read-more-state&quot; id=&quot;post-2&quot;/&gt;
-    &lt;p class=&quot;read-more-wrap&quot;&gt;The scientists found that, as predicted, coffee drinkers had a lower risk of&lt;span
-            class=&quot;read-more-target&quot;&gt; death over the course of the follow-up. They also found that this reduction in risk extended to people who drank eight or more cups each day.
-
-It also affected people who metabolize caffeine slower or faster than normal, and it worked across all coffee types (although the benefits were slightly less pronounced for instant coffee).
-
-The fact that individuals who process caffeine differently and those who drink decaffeinated coffee also saw benefits hints that caffeine is not the main player in this beneficial relationship. Coffee consists of hundreds of different chemicals, making this a tricky code to crack.
-
-One group of chemicals that scientists have been interested in is polyphenols, which are found in reduced levels in instant coffee. Much more work will be needed to understand how they fit into the bigger picture, though.
-
-The new study is based on observational data, but because of the large number of participants used, the authors conclude:
-
-&quot;[T]hese results provide further evidence that coffee drinking can be part of a healthy diet and may provide reassurance to those who drink coffee and enjoy it.&quot;&lt;/span&gt;
-    &lt;/p&gt;
-    &lt;label for=&quot;post-2&quot; class=&quot;main-button&quot;&gt;&lt;/label&gt;
-
-&lt;/article&gt;</content><author><name></name></author><summary type="html">Good news for heavy coffee drinkers The scientists found that, as predicted, coffee drinkers had a lower risk of death over the course of the follow-up. They also found that this reduction in risk extended to people who drank eight or more cups each day.</summary></entry><entry><title type="html">Hello</title><link href="/CoffeeShop/2018/11/22/Blog-6.html" rel="alternate" type="text/html" title="Hello" /><published>2018-11-22T15:03:46+02:00</published><updated>2018-11-22T15:03:46+02:00</updated><id>/CoffeeShop/2018/11/22/Blog-6</id><content type="html" xml:base="/CoffeeShop/2018/11/22/Blog-6.html">&lt;article class=&quot;card&quot; id=&quot;two&quot;&gt;
-    &lt;img src=&quot;../images/post-2.jpg&quot; class=&quot;blog-img&quot;/&gt;
-    &lt;p class=&quot;article&quot;&gt;
-        Good news for heavy coffee drinkers
-    &lt;/p&gt;
-    &lt;input type=&quot;checkbox&quot; class=&quot;read-more-state&quot; id=&quot;post-2&quot;/&gt;
-    &lt;p class=&quot;read-more-wrap&quot;&gt;The scientists found that, as predicted, coffee drinkers had a lower risk of&lt;span
-            class=&quot;read-more-target&quot;&gt; death over the course of the follow-up. They also found that this reduction in risk extended to people who drank eight or more cups each day.
-
-It also affected people who metabolize caffeine slower or faster than normal, and it worked across all coffee types (although the benefits were slightly less pronounced for instant coffee).
-
-The fact that individuals who process caffeine differently and those who drink decaffeinated coffee also saw benefits hints that caffeine is not the main player in this beneficial relationship. Coffee consists of hundreds of different chemicals, making this a tricky code to crack.
-
-One group of chemicals that scientists have been interested in is polyphenols, which are found in reduced levels in instant coffee. Much more work will be needed to understand how they fit into the bigger picture, though.
-
-The new study is based on observational data, but because of the large number of participants used, the authors conclude:
-
-&quot;[T]hese results provide further evidence that coffee drinking can be part of a healthy diet and may provide reassurance to those who drink coffee and enjoy it.&quot;&lt;/span&gt;
-    &lt;/p&gt;
-    &lt;label for=&quot;post-2&quot; class=&quot;main-button&quot;&gt;&lt;/label&gt;
-
-&lt;/article&gt;</content><author><name></name></author><summary type="html">Good news for heavy coffee drinkers The scientists found that, as predicted, coffee drinkers had a lower risk of death over the course of the follow-up. They also found that this reduction in risk extended to people who drank eight or more cups each day.</summary></entry><entry><title type="html">Hello</title><link href="/CoffeeShop/2018/11/22/Blog-7.html" rel="alternate" type="text/html" title="Hello" /><published>2018-11-22T15:03:46+02:00</published><updated>2018-11-22T15:03:46+02:00</updated><id>/CoffeeShop/2018/11/22/Blog-7</id><content type="html" xml:base="/CoffeeShop/2018/11/22/Blog-7.html">&lt;article class=&quot;card&quot; id=&quot;two&quot;&gt;
-    &lt;img src=&quot;../images/post-2.jpg&quot; class=&quot;blog-img&quot;/&gt;
-    &lt;p class=&quot;article&quot;&gt;
-        Good news for heavy coffee drinkers
-    &lt;/p&gt;
-    &lt;input type=&quot;checkbox&quot; class=&quot;read-more-state&quot; id=&quot;post-2&quot;/&gt;
-    &lt;p class=&quot;read-more-wrap&quot;&gt;The scientists found that, as predicted, coffee drinkers had a lower risk of&lt;span
-            class=&quot;read-more-target&quot;&gt; death over the course of the follow-up. They also found that this reduction in risk extended to people who drank eight or more cups each day.
-
-It also affected people who metabolize caffeine slower or faster than normal, and it worked across all coffee types (although the benefits were slightly less pronounced for instant coffee).
-
-The fact that individuals who process caffeine differently and those who drink decaffeinated coffee also saw benefits hints that caffeine is not the main player in this beneficial relationship. Coffee consists of hundreds of different chemicals, making this a tricky code to crack.
-
-One group of chemicals that scientists have been interested in is polyphenols, which are found in reduced levels in instant coffee. Much more work will be needed to understand how they fit into the bigger picture, though.
-
-The new study is based on observational data, but because of the large number of participants used, the authors conclude:
-
-&quot;[T]hese results provide further evidence that coffee drinking can be part of a healthy diet and may provide reassurance to those who drink coffee and enjoy it.&quot;&lt;/span&gt;
-    &lt;/p&gt;
-    &lt;label for=&quot;post-2&quot; class=&quot;main-button&quot;&gt;&lt;/label&gt;
-
-&lt;/article&gt;</content><author><name></name></author><summary type="html">Good news for heavy coffee drinkers The scientists found that, as predicted, coffee drinkers had a lower risk of death over the course of the follow-up. They also found that this reduction in risk extended to people who drank eight or more cups each day.</summary></entry><entry><title type="html">Hello</title><link href="/CoffeeShop/2018/11/22/Blog-8.html" rel="alternate" type="text/html" title="Hello" /><published>2018-11-22T15:03:46+02:00</published><updated>2018-11-22T15:03:46+02:00</updated><id>/CoffeeShop/2018/11/22/Blog-8</id><content type="html" xml:base="/CoffeeShop/2018/11/22/Blog-8.html">&lt;article class=&quot;card&quot; id=&quot;two&quot;&gt;
-    &lt;img src=&quot;../images/post-2.jpg&quot; class=&quot;blog-img&quot;/&gt;
-    &lt;p class=&quot;article&quot;&gt;
-        Good news for heavy coffee drinkers
-    &lt;/p&gt;
-    &lt;input type=&quot;checkbox&quot; class=&quot;read-more-state&quot; id=&quot;post-2&quot;/&gt;
-    &lt;p class=&quot;read-more-wrap&quot;&gt;The scientists found that, as predicted, coffee drinkers had a lower risk of&lt;span
-            class=&quot;read-more-target&quot;&gt; death over the course of the follow-up. They also found that this reduction in risk extended to people who drank eight or more cups each day.
-
-It also affected people who metabolize caffeine slower or faster than normal, and it worked across all coffee types (although the benefits were slightly less pronounced for instant coffee).
-
-The fact that individuals who process caffeine differently and those who drink decaffeinated coffee also saw benefits hints that caffeine is not the main player in this beneficial relationship. Coffee consists of hundreds of different chemicals, making this a tricky code to crack.
-
-One group of chemicals that scientists have been interested in is polyphenols, which are found in reduced levels in instant coffee. Much more work will be needed to understand how they fit into the bigger picture, though.
-
-The new study is based on observational data, but because of the large number of participants used, the authors conclude:
-
-&quot;[T]hese results provide further evidence that coffee drinking can be part of a healthy diet and may provide reassurance to those who drink coffee and enjoy it.&quot;&lt;/span&gt;
-    &lt;/p&gt;
-    &lt;label for=&quot;post-2&quot; class=&quot;main-button&quot;&gt;&lt;/label&gt;
-
-&lt;/article&gt;</content><author><name></name></author><summary type="html">Good news for heavy coffee drinkers The scientists found that, as predicted, coffee drinkers had a lower risk of death over the course of the follow-up. They also found that this reduction in risk extended to people who drank eight or more cups each day.</summary></entry><entry><title type="html">Hello</title><link href="/CoffeeShop/2018/11/22/Blog-9.html" rel="alternate" type="text/html" title="Hello" /><published>2018-11-22T15:03:46+02:00</published><updated>2018-11-22T15:03:46+02:00</updated><id>/CoffeeShop/2018/11/22/Blog-9</id><content type="html" xml:base="/CoffeeShop/2018/11/22/Blog-9.html">&lt;article class=&quot;card&quot; id=&quot;two&quot;&gt;
-    &lt;img src=&quot;../images/post-2.jpg&quot; class=&quot;blog-img&quot;/&gt;
-    &lt;p class=&quot;article&quot;&gt;
-        Good news for heavy coffee drinkers
-    &lt;/p&gt;
-    &lt;input type=&quot;checkbox&quot; class=&quot;read-more-state&quot; id=&quot;post-2&quot;/&gt;
-    &lt;p class=&quot;read-more-wrap&quot;&gt;The scientists found that, as predicted, coffee drinkers had a lower risk of&lt;span
-            class=&quot;read-more-target&quot;&gt; death over the course of the follow-up. They also found that this reduction in risk extended to people who drank eight or more cups each day.
-
-It also affected people who metabolize caffeine slower or faster than normal, and it worked across all coffee types (although the benefits were slightly less pronounced for instant coffee).
-
-The fact that individuals who process caffeine differently and those who drink decaffeinated coffee also saw benefits hints that caffeine is not the main player in this beneficial relationship. Coffee consists of hundreds of different chemicals, making this a tricky code to crack.
-
-One group of chemicals that scientists have been interested in is polyphenols, which are found in reduced levels in instant coffee. Much more work will be needed to understand how they fit into the bigger picture, though.
-
-The new study is based on observational data, but because of the large number of participants used, the authors conclude:
-
-&quot;[T]hese results provide further evidence that coffee drinking can be part of a healthy diet and may provide reassurance to those who drink coffee and enjoy it.&quot;&lt;/span&gt;
-    &lt;/p&gt;
-    &lt;label for=&quot;post-2&quot; class=&quot;main-button&quot;&gt;&lt;/label&gt;
-
-&lt;/article&gt;</content><author><name></name></author><summary type="html">Good news for heavy coffee drinkers The scientists found that, as predicted, coffee drinkers had a lower risk of death over the course of the follow-up. They also found that this reduction in risk extended to people who drank eight or more cups each day.</summary></entry></feed>
+&lt;/article&gt;</content><author><name></name></author><summary type="html">Coffee and Parkinson's disease TResearchers in the U.S. carried out a study that assessed the link between coffee consumption and Parkinson's disease risk. The authors of the study concluded that &quot;higher coffee and caffeine intake is associated with a significantly lower incidence of Parkinson's disease&quot;.5</summary></entry></feed>
