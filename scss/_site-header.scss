@@ -18,6 +18,13 @@
           border-bottom: 1px solid $primary-color;
           font-size: 0.8rem;
           padding: 0.1rem;
+          @include mq(phablet, max) {
+            display: block;
+            text-align: center;
+            p {
+              width: 100%;
+            }
+          }
 
           .icons i {
             padding: 0.5rem;
@@ -29,14 +36,12 @@
             }
           }
 
-          p {
-            padding: 0;
-          }
 
           .contacts {
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
+            text-align: center;
 
             p {
               padding: 0 0.5rem;
