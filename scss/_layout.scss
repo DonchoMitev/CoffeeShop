@@ -19,7 +19,7 @@ body {
 }
 
 //Sections Coffee main, Top Products, Services, Blog
-section.flex {
+section .flex {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -35,7 +35,7 @@ section.flex {
   }
 }
 
-// style title - all sections
+// style title - all sections titles
 .section-title {
   text-align: center;
   margin-bottom: 2rem;
@@ -73,7 +73,7 @@ section.flex {
 }
 
 //First Section - home page - Coffee main
-.coffee-main {
+section.coffee-main {
   width: 80%;
   margin: auto;
   text-align: center;
@@ -85,14 +85,14 @@ section.flex {
 
 }
 
-//Wrapper img
+//Wrapper img - beans, machines, top-products
 .wrapper-img{
   width: 17rem;
   height: auto;
 }
 
 //Second Section Top Products - home page
-.product {
+section.top-products .product {
   flex: 0 0 10rem;
   text-align: center;
   position: relative;
@@ -130,7 +130,7 @@ section.flex {
 }
 
 //Third Section Our Services - home page
-section.services {
+section.our-services .services {
   .card {
     margin: 1rem;
     flex-basis: 15rem;
@@ -220,7 +220,7 @@ section.newsletter {
 
 //Page Machines & Page Coffee beans
 section.coffee-machines .machines, section.coffee-beans .beans{
-  .card {
+  article.card {
     border: $main-border;
     margin: 1.5rem;
     border-radius: 8px;

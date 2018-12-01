@@ -32,11 +32,12 @@ tag: product
 {% endif %}
 
 <section class="blog-articles flex">
-    <!-- This loops through the paginated posts -->
-    {% for post in paginator.posts %}
-            {{ post.content }}
-    {% endfor %}
-
+    <div class="blog-article flex">
+        <!-- This loops through the paginated posts -->
+        {% for post in paginator.posts %}
+                {{ post.content }}
+        {% endfor %}
+    </div>
 </section>
 
 <!-- pagination -->

@@ -4,7 +4,7 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width"/>
     <title>Coffee Shop | Contacts</title>
-    <link rel="stylesheet" href="/CoffeeShop/css/styles.css" type="text/css"/>
+    <link rel="stylesheet" href="/css/styles.css" type="text/css"/>
 </head>
 
 <body class="coffee-shop-contacts">
@@ -18,31 +18,31 @@
         <i class="fab fa-google-plus-g"></i>
     </div>
     <div class="contacts">
-        <p><i class="fas fa-phone"></i> +359 899 29 45 66</p>
+        <p><i class="fas fa-phone"></i> +359 88 44 44 44</p>
         <p><i class="fas fa-envelope"></i> contact@coffeeshop.com</p>
     </div>
 </div>
 <div class="site-navigation-bar" id="navigation-bar">
     <div class="site-title">
-        <a href="/CoffeeShop/"><span>Coffee</span> Shop</a>
+        <a href="/"><span>Coffee</span> Shop</a>
     </div>
     <label for="main-nav-toggle" id="toggle"></label>
     <nav class="main" id="main-navigation">
         <ul>
-            <li><a href="/CoffeeShop/">Home</a></li>
-            <li><a href="/CoffeeShop/about/">About Us</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about/">About Us</a></li>
             <li>
-                <a href="#">Products</a>
+                <a>Products</a>
                 <ul>
-                    <li><a href="/CoffeeShop/beans/">Coffee beans</a></li>
+                    <li><a href="/beans/">Coffee beans</a></li>
                     <li>
-                        <a href="/CoffeeShop/machines/">Coffee machines</a>
+                        <a href="/machines/">Coffee machines</a>
                     </li>
                 </ul>
             </li>
-            <!--<li><a href="/CoffeeShop/events/">Events</a></li>-->
-            <li><a href="/CoffeeShop/blog/index.html">Blog</a></li>
-            <li><a href="/CoffeeShop/contacts/">Contacts</a></li>
+            <!--<li><a href="/events/">Events</a></li>-->
+            <li><a href="/blog/index.html">Blog</a></li>
+            <li><a href="/contacts/">Contacts</a></li>
         </ul>
     </nav>
 </div>
@@ -51,7 +51,7 @@
         All you need to feel better, is coffee
     </h1>
     <p>Make yourself useful. Have a coffee break.</p>
-    <form action="/CoffeeShop/products/">
+    <form action="/machines/">
         <input class="main-button" type="submit" value="Best Offers">
     </form>
 </div>
@@ -67,8 +67,8 @@
         </div>
     </header>
     <article class="address">
-        <p>Address: Sofia, Opalchenska 153</p>
-        <p>Telephone: Sofia, Opalchenska 153</p>
+        <p>Address: Sofia, Opalchenska 244 fl. 1</p>
+        <p>Telephone: +359 88 44 44 44</p>
         <p>Email: contact@coffeeshop.com</p>
     </article>
     <form class="contact-form">
@@ -94,7 +94,7 @@
     <section class="about-footer">
         <div class="footer-title">
             <h5>
-                <a href="/CoffeeShop"><span>Coffee</span> Shop</a>
+                <a href=""><span>Coffee</span> Shop</a>
             </h5>
             <div class="icons">
                 <i class="fab fa-facebook-f"></i>
@@ -112,10 +112,10 @@
         <h5>QUICK LINKS</h5>
 
         <ul>
-            <li><a href="/CoffeeShop">Home</a></li>
-            <li><a href="/CoffeeShop/about/">About</a></li>
-            <li><a href="/CoffeeShop/info/">Info</a></li>
-            <li><a href="/CoffeeShop/contact/">Contacts</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/blog/index.html">Blog</a></li>
+            <li><a href="/contacts/">Contacts</a></li>
         </ul>
     </section>
 
@@ -124,7 +124,7 @@
         <h5>CONTACT INFO</h5>
 
         <ul>
-            <li><i class="fas fa-phone-volume"></i> +359 889 44 44 44</li>
+            <li><i class="fas fa-phone-volume"></i> +359 88 44 44 44</li>
             <li><i class="fas fa-envelope"></i> contacts@coffeeshop.com</li>
             <li><i class="fas fa-clock"></i> Monday - Friday: 09:00 - 18:00</li>
             <li><i class="fas fa-map-marked"></i> Sofia,<br>Opalchenska 244 fl. 1</li>
@@ -138,21 +138,6 @@
 
         </footer>
     </div>
-<script>
-    window.onscroll = function () {
-        myFunction()
-    };
-
-    var header = document.getElementById("navigation-bar");
-    var sticky = header.offsetTop;
-
-    function myFunction() {
-        if (window.pageYOffset > sticky) {
-            header.classList.add("sticky");
-        } else {
-            header.classList.remove("sticky");
-        }
-    }
-</script>
+    <script src="/js/main.js"></script>
 </body>
 </html>
